@@ -1,0 +1,16 @@
+According To The Last Exemple 11- CPU In Depth We Will Describe The Picture To Explain The Concept: 
+ 
+1- Input Unit As The Keyboard 
+
+2- Output Unit As The Monitor
+
+3- Primary Memory As RAM
+
+4- Secondary Memory As HardDrive
+
+5- CPU Components: 
+
+	1: Arithmetic And Logic Unit (ALU)
+	2: Control Unit that Controls (ALU, Inputs, Outputs & Memory)
+	3: Cache & Registers 
+		Cache Is Faster Than Ram & Registers Is More Faster Than Cache
