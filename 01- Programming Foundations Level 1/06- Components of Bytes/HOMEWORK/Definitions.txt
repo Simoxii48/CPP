@@ -1,0 +1,29 @@
+1- What is bit ?
+	The bit is the smallest unit of data that a computer can process and store.
+2- What is Crumb ?
+	The Crumb is a group of 2 Bits together.
+3- What is Nibble ?
+	The Nibble is a group of 4 Bits together.
+4- What is Byte ?
+	The Byte is a group of 8 Bits together.
+5- How many Bits in a Byte ?
+	8 Bits.
+6- How many Crumbs in a Byte ?
+	4 Crumbs.
+7- How many Nibbles in a Byte ?
+	2 Nibbles.
+8- How many Crumbs in a Nibble ?
+	2 Crumbs in a Nibble.
+9- What is the lower Nibble ?
+	The First Nibble of a Byte
+10- What is the upper Nibble ?
+	The Second Nibble of a Byte
+11- What is LSB ? and why we call it LSB ? What it's value ?
+	-LSB mean Least Significant Bit.
+	-Because it represent the smallest value.
+	-Its value is 1.
+12- What is MSB ? and why we call it MSB ? what it's value ?
+	-MSB mean Most Significant Bit.
+	-Because it represent the highest value.
+	-Its value is 128.
+	
