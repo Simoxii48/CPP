@@ -1,0 +1,3 @@
+	Very Important Question :
+How The Computer Will Know That The Saved Value Is 65 Or A ??
+The Computer Will Save The Both With The Same Way But With The Context It Will Get To Know If You Want To Use A Or 65

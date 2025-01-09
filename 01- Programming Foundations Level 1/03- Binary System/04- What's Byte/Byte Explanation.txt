@@ -1,0 +1,8 @@
+01- 1 Byte is composed of 8 Bits.
+02- the first bit called Low Significant Bit (LSB) and the last bit called Most Significant Bit (MSB).
+03- The bit can contain either 1 or 0.
+04- The first bit is 2 base 0 = 1, the second 2 base 1 = 2, the third is 2 base 2 = 4 and so on to the last bit 2 base 7 = 128, so it's doubling.
+05- Exemple: If we want to store the number 65 we have only one way to do it:
+	01000001 (BINARY) >>> 65 (DECIMAL)
+	Because the First bit is 2 BASE 1 = 1 & The seventh Bit is 2 BASE 6 = 64, So 64 + 1 = 65
+Simple

@@ -1,0 +1,11 @@
+The Home Work Is To Write My Name In Binary :
+
+	Mohammed Hejjam : The First Letter Capital The Rest Small
+	
+	   77       111     104       97       109      109      101      100     32        72      101       106     106       97       109
+
+	01001101 01101111 01101000 01100001 01101101 01101101 01100101 01100100 00100000 01001000 01100101 01101010 01101010 01100001 01101101
+
+	    M        o       h         a        m        m        e        d    (space)      H        e        j        j        a        m
+
+All Done Successfully :)

@@ -1,0 +1,11 @@
+Binary System Is So Powerful Because You Have One Option To have The Result You Want, Exemple:
+
+	If You would like to represent 8 in Binary, you have direct bit with 8 in the value so :
+		00001000 >>> This Is 8 Decimals In Binary.
+	
+	If You Don't Have A Direct Value like The Exemple, You Will Have 1 Option To Get Your Result:
+	
+	Exemple Of 21:
+		00010101 >>> The Only Way To Get 21 In Binary Is This Result
+
+That's The Power Of Binary System.

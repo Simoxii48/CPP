@@ -1,0 +1,11 @@
+The Max Value We Can Save In 1 Byte is 255, So We Have From 0 To 255 In Only 1 Byte So Impressive Right, What If We Want To Save 257 ? How Can We Achieve It ??? So Simple, the exemple below :
+
+	0 0 0 0 0 0 0 0	(The MSB Here is 2 base 15 = 32768)	0 0 0 0 0 0 0 0 (The MSB Here is 2 base 7 = 128)
+	  		Second Byte		   				First Byte
+
+
+The Max Value We can Have In 1 Byte Is 255 (11111111) Right , So What is The Max Value We Can Have In 2 Bytes ?
+
+	(1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ) In Binary >>> 65 535 In Decimals 
+
+	Can You Imagine From 0 To 65,535 In Only 2 Bytes !!!

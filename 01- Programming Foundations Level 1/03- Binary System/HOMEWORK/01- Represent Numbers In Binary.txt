@@ -1,0 +1,9 @@
+The Homework Is To Convert The Given Numbers To Binary System :
+
+	512 (Decimals) >>> 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 (2 Bytes)	:)
+	44  (Decimals) >>> 0 0 1 0 1 1 0 0 (1 Byte)			:)
+	129 (Decimals) >>> 1 0 0 0 0 0 0 1 (1 Byte)			:)
+	717 (Decimals) >>> 0 0 0 0 0 0 1 0 1 1 0 0 1 1 0 1 (2 Bytes)	:)
+	999 (Decimals) >>> 0 0 0 0 0 0 1 1 1 1 1 0 0 1 1 1 (2 Bytes)	:)
+
+Saved And Corrected Successfully :)
