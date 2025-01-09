@@ -1,0 +1,3 @@
+Important note :
+
+	Let's Say You Have A Laptop Of 64Bits Hardware, and You Install Windows 32Bits On It Wrongly, The Windows Will Work Properly without Any Problems, But The Softwares You Will Install Needs To Be 32 Bits Only Even Your Hardware Is 64Bits, Also The Windows Will Allocate Only 4GB Of RAM From Your Installed RAM On The Laptop Even If You Have 16 GB RAM.  
