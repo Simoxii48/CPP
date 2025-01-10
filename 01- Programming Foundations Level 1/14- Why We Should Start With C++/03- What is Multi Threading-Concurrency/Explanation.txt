@@ -1,0 +1,9 @@
+Multithreading Or Concurrency Exemple :
+
+	I Want A Program To Calculate 5 Different Students Marks.
+
+	In Other Programming Language, It Will Calculate The First Students Mark, Once Its Done The Second, Then The Third, And So One To The Last.
+
+	In C++ It's Different, Its The Same Program Will Run At The Same time As Much As You Need, In Our Exemple The Program Will Run 5 Times At The Same Time Calculate The 5 Different Marks Simultaneously.
+
+	Multithreading Is Running A Lot Of Thing Parallelly.
