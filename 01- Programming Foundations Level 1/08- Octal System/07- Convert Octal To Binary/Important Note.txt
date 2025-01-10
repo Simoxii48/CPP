@@ -1,0 +1,6 @@
+The Important Note About Octal Is That Octal Is 3Bits Only Not 4Bits Like Hex, So When Convert To&From Binary We Need To Use 3Bits Only.
+	Exemple:
+		111(8) >>> ???(2):
+		1	1	1
+		001	001	001	
+					001001001(2).		That's It. Not(0001)XXX Only(001)
