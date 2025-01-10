@@ -1,0 +1,11 @@
+12 >= 12 >>> True	|	NOT(12 >= 12) >>> False	|	1 AND 1     >>> True	|	(7 = 7) AND (7 > 5) 	>>> True
+
+12 > 7   >>> True	|	NOT(12 < 7)   >>> True	|	True AND 0  >>> False	|	(7 = 7) AND (7 < 5) 	>>> False
+
+8 < 6    >>> False	|	NOT(8 < 6)    >>> True	|	0 OR 1 	    >>> True	|	(7 = 7) OR (7 < 8)  	>>> True
+
+8 = 8    >>> True	|	NOT(8 = 8)    >>> False	|	0 OR 0      >>> False	|	(7 < 7) OR (7 > 5)  	>>> True
+
+12 <= 12 >>> True	|	NOT(12 <= 12) >>> False |	NOT 0       >>> True	|	NOT(7 = 7) AND (7 > 5)	>>> False
+
+7 = 5    >>> False	|	NOT(7 = 5)    >>> True	|	NOT(1 OR 0) >>> False	|	(7 = 7) AND NOT (7 < 5) >>> True
