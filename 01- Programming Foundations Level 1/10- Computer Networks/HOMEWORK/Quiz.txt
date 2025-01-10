@@ -1,0 +1,27 @@
+1- What's Network ?
+	+ Network Is A Group Of Connected Computers & Devices.
+ 
+2- Why Do We Need Network ?
+	+ Because Devices In The Same Network Can Communicate & Share Easily With Each Others.
+
+3- What's LAN vs WAN ?
+	+ Local Area Network
+	+ Wide Area Network
+
+4- How Computers Communicate Together ?
+	+ Computers Can Communicate Together Within 2 Types (Wired || Wireless)
+
+5- What's Ethernet ?
+	+ Rules That Computers Follow For Communicating On A Wired Network
+
+6- What's Wireless ?
+	+ Rules That Computers Follow For Communicating Through Radio Signals
+
+7- What's Protocol ?
+	+ Set Of Rules For How Devices Communicate Through Wires Or Wireless
+
+8- What's Wi-Fi ?
+	+ It's A Way To Connect Wirelessly To A Network
+
+9- Wi-Fi Stands For What ?
+	+Stands For Wireless Fidelity 
