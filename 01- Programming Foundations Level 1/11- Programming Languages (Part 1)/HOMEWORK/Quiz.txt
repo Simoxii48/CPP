@@ -1,0 +1,31 @@
+1- What Programming Language ?
+	+ Programming Language Is Only A Tool To Help You Write Instructions To Computer To Performe The Needed Tasks.
+
+2- What's Code ?
+	+ Those Instructions Called Code.
+
+3- What's Source Code ?
+	+ It's The Code That We Write With The High Level Language.
+
+4- What's Object Code ?
+	+ It's The Machine Code Translated From The Source Code.
+
+5- Why Do We Need Compilers || Interpreters ?
+	+ To Translate The Code We Write With The High Level Language Into A Code That The Machine Can Understand.
+
+6- When Is The Language Considered Fast ?
+	+ When It's Too Close To The Hardware.
+
+7- When Is The Language Considered Slow ?
+	+ When It's Too Far From The Hardware.
+
+8- What's High Level Language ?
+	+ It's A Language That Is More Human Readable And Easy To Deal With.
+
+9- What's Low Level Language ?
+	+ It's A Language That The Computer Understand And Hard For Us To Write And Learn.
+
+10- When Do We Consider A Language Is A Human Readable ?
+	+ When It's Easier For Us To Read And Understand.
+
+ 
