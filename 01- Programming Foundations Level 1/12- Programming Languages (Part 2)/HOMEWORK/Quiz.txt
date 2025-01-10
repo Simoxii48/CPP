@@ -1,0 +1,34 @@
+1- What's Compiler ? And How It Works ?
+	+ The Compiler Is A Translator Software.
+	+ It Builds The Program To An Object Code Saved On The HDD, Link The Used Libraries With The Linker And Produce The exe File To Execute.
+
+2- What's Interpreter ? And How It Works ?
+	+ The Interpreter Is A Translator Software.
+	+ It Runs The Program Line By Line.
+
+3- What's Assembler ?
+	+ It's A Program That Translate The Assembly Code To The Machine Code.
+
+4- What's Linker ?
+	+ It's A Program That Links The Used Libraries With The Object Code.
+
+5- What's exe File ?
+	+ It's The Final Executable File.
+
+6- What's Loader ?
+	+ It's A Program That Loads The File To The RAM To Execute It.
+
+7- Which Is Faster Compiled || Interpreted Languages ?
+	+ Compiled Languages Are Faster.
+
+8- Does Interpreter Produce exe File ?
+	+ No It Does Not.
+
+9- Does Interpreter Save Machine Code ?
+	+ No It Does Not.
+
+10- Does Compiler Produce exe File ?
+	+ Yes It Does.
+
+11- Does Compiler Save Machine Code ?
+	+ Yes It Does.
