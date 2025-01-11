@@ -1,0 +1,58 @@
+1- What is Variable ? And Why Do We Need It ?
+	+ Variable Is A Container
+	+ We Need It To Store Data
+
+2- What is Constant ? And Why Do We Need It ?
+	+ Constant Is Container As Well
+	+ We Need It To Store Data
+
+3- What is Memory Cell ?
+	+ Place In The Memory
+
+4- What is Identifier ?
+	+ The Name Of The Variable
+
+5- What is Memory Address ? What is Its Relation To Location ?
+	+ It is A Number
+	+ It is The Memory Location
+
+6- Which Numbering System Used In Memory Address ?
+	+ Hexadecimal
+
+7- Mention The Primary Types Of Variables ?
+	+ Numbers, Strings & Boolean
+
+8- What are The Number's Types ? And Give Exemples ?
+	+ Int & Float
+	+ 10, 23,54
+
+9- What is String ? Give Exemple ?
+	+ It is A Type Of Variables, We Can Say A Continuous Order Of Letters
+	+ "Mohammed"
+
+10- What is Boolean ? Give Exemple ?
+	+ It is A Type Of Variables, We Can Say A Falsy Or Truthy Answer
+	+ False, True
+
+11-Are All Variables And Constants Have The Same Size ?
+	+ No
+
+12- What Happens When You Use Much Larger Size Than You Need In Variables ?
+	+ Slow In Program
+
+13- Can We Modify A Variable During The Program ?
+	+ Yes
+
+14- Can We Modify A Constant During The Program ?
+	+ No
+
+15- How To Make A Variable Read Only ?
+	+ Make It Constant
+
+16- Where Do The Variables And Constant Get Stored ?
+	+ In The RAM Memory
+
+17- What is The Difference Between Integers And Floats ?
+	+ Int Is A Number Without A Decimal Point & Floats Are Numbers With Fractions
+
+
