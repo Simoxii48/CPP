@@ -16,7 +16,7 @@ int main()
         Note 
             By Default everything is signed 
     */
-    /*
+    
     //Exemples In Code
     
     // Both are the same to declare the signed or not, by default it's signed
@@ -62,7 +62,7 @@ int main()
 
     // unsigned value
     unsigned char v17;
-    */
+    
 
     // Explanation the number E nmber
     double distance = 56E12; // 56E12 is = 56*10^12
