@@ -29,4 +29,6 @@ void printAllPerfectNumbersFrom1ToN(int Number) {
 int main()
 {
 	printAllPerfectNumbersFrom1ToN(readPositiveNumber("Please enter positive number : "));
+
+	return 0;
 }
