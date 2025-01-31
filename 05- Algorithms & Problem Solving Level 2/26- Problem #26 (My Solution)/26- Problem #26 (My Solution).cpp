@@ -17,17 +17,21 @@ void readArrayelements(int arr[100], int& length) {
 
 void printArrayElements(int arr[100], int length) {
     cout << "\nArray elements : ";
+
     for (int i = 0; i < length; i++) {
         cout << arr[i] << " ";
     }
+
     cout << endl;
 }
 
 int sumArrayElements(int arr[100], int length) {
     int sum = 0;
+
     for (int i = 0; i < length; i++) {
         sum += arr[i];
     }
+
     return sum;
 }
 
