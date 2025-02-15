@@ -10,7 +10,7 @@ string readString() {
     return s1;
 }
 
-void upperCaseFirstLetterInString(string s1) {
+void upperCaseFirstLetterInString(string& s1) {
     bool isFirstLetter = true;
     char lowerToUpper = ' ';
     
