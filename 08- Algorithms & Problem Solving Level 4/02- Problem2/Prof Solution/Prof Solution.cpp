@@ -1,20 +1,48 @@
-// Prof Solution.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+using namespace std;
+
+bool IsLeapYear(short Year)
+{
+	// leap year if perfectly divisible by 400
+	if (Year % 400 == 0) {
+		return true;
+	}
+
+	// not a leap year if divisible by 100
+	// but not divisible by 400
+	else if (Year % 100 == 0) {
+		return false;
+	}
+
+	// leap year if not divisible by 100
+	// but divisible by 4
+	else if (Year % 4 == 0) {
+		return true;
+	}
+	
+	// all other years are not leap years
+	else {
+		return false;
+	}
+}
+
+short ReadYear()
+{
+	short Year;
+	cout << "\nPlease enter a year to check? ";
+	cin >> Year;
+	return Year;
+}
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	short Year = ReadYear();
+	
+	if (IsLeapYear(Year))
+		cout << "\nYes, Year [" << Year << "] is a leap year.\n";
+	else
+		cout << "\nNo, Year [" << Year << "] is NOT a leap year.\n";
+		
+	system("pause>0");
+	return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
