@@ -1,4 +1,0 @@
-﻿  Problem #20 Solution.cpp
-C:\Users\SuperElectro\source\repos\C++ Path\04- Algorithms & Problem Solving Level 1(Mentor Solutions Best Practices in our stage)\Problem #20 Solution\Problem #20 Solution.cpp(12,42): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\SuperElectro\source\repos\C++ Path\04- Algorithms & Problem Solving Level 1(Mentor Solutions Best Practices in our stage)\Problem #20 Solution\Problem #20 Solution.cpp(13,29): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-  Problem #20 Solution.vcxproj -> C:\Users\SuperElectro\source\repos\C++ Path\04- Algorithms & Problem Solving Level 1(Mentor Solutions Best Practices in our stage)\Problem #20 Solution\x64\Debug\Problem #20 Solution.exe
