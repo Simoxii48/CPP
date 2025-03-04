@@ -1,0 +1,4 @@
+﻿  Problem #38 Solution.cpp
+C:\Users\SuperElectro\source\repos\C++ Path\04- Algorithms & Problem Solving Level 1(Mentor Solutions Best Practices in our stage)\Problem #38 Solution\Problem #38 Solution.cpp(17,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\SuperElectro\source\repos\C++ Path\04- Algorithms & Problem Solving Level 1(Mentor Solutions Best Practices in our stage)\Problem #38 Solution\Problem #38 Solution.cpp(40,39): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Problem #38 Solution.vcxproj -> C:\Users\SuperElectro\source\repos\C++ Path\04- Algorithms & Problem Solving Level 1(Mentor Solutions Best Practices in our stage)\Problem #38 Solution\x64\Debug\Problem #38 Solution.exe
