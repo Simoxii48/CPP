@@ -1,4 +1,0 @@
-﻿  Problem #37 Solution.cpp
-C:\Users\SuperElectro\source\repos\C++ Path\04- Algorithms & Problem Solving Level 1(Mentor Solutions Best Practices in our stage)\Problem #37 Solution\Problem #37 Solution.cpp(18,28): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\SuperElectro\source\repos\C++ Path\04- Algorithms & Problem Solving Level 1(Mentor Solutions Best Practices in our stage)\Problem #37 Solution\Problem #37 Solution.cpp(25,12): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
-  Problem #37 Solution.vcxproj -> C:\Users\SuperElectro\source\repos\C++ Path\04- Algorithms & Problem Solving Level 1(Mentor Solutions Best Practices in our stage)\Problem #37 Solution\x64\Debug\Problem #37 Solution.exe
