@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SuperElectro\\source\\repos\\C\u002B\u002B Path\\04- Algorithms \u0026 Problem Solving Level 1(Mentor Solutions Best Practices in our stage)\\02- Updated Version\\20- Solution 20\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{542F97DD-6542-4053-896D-AC685E9C7BD0}|20- Solution 20.vcxproj|C:\\Users\\SuperElectro\\source\\repos\\C\u002B\u002B Path\\04- Algorithms \u0026 Problem Solving Level 1(Mentor Solutions Best Practices in our stage)\\02- Updated Version\\20- Solution 20\\20- Solution 20.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{542F97DD-6542-4053-896D-AC685E9C7BD0}|20- Solution 20.vcxproj|solutionrelative:20- Solution 20.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20- Solution 20.cpp",
+              "DocumentMoniker": "C:\\Users\\SuperElectro\\source\\repos\\C\u002B\u002B Path\\04- Algorithms \u0026 Problem Solving Level 1(Mentor Solutions Best Practices in our stage)\\02- Updated Version\\20- Solution 20\\20- Solution 20.cpp",
+              "RelativeDocumentMoniker": "20- Solution 20.cpp",
+              "ToolTip": "C:\\Users\\SuperElectro\\source\\repos\\C\u002B\u002B Path\\04- Algorithms \u0026 Problem Solving Level 1(Mentor Solutions Best Practices in our stage)\\02- Updated Version\\20- Solution 20\\20- Solution 20.cpp",
+              "RelativeToolTip": "20- Solution 20.cpp",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAwEcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-04T16:59:00.936Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
