@@ -1,0 +1,23 @@
+JSON (JavaScript Object Notation) is a lightweight, text-based format used to store and exchange data. It’s easy for humans to read and write, and easy for machines to parse and generate. JSON is often used to send data between a server and a web application, or between different parts of a program.
+
+Structure of JSON:
+Objects: Key-value pairs, like a dictionary or map.
+Arrays: Ordered lists of values.
+Example of JSON:
+
+{
+  "name": "John",
+  "age": 30,
+  "isStudent": false,
+  "courses": ["Math", "Science"],
+  "address": {
+    "street": "123 Main St",
+    "city": "New York"
+  }
+}
+
+Key Points:
+Keys are always strings (e.g., "name").
+Values can be strings, numbers, booleans, arrays, or other objects.
+JSON is language-independent but is commonly used with JavaScript.
+It’s widely used in web development and APIs to send data because of its simplicity and ease of use.
