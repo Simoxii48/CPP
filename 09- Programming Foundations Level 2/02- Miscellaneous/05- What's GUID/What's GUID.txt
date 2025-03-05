@@ -1,0 +1,12 @@
+A GUID (Globally Unique Identifier) is a unique identifier that is used to distinguish objects or records across different systems and applications. It’s a 128-bit value, typically represented as a string of numbers and letters, that ensures that each identifier is unique, even across different computers and networks.
+
+GUIDs are often used in software development for things like:
+
+Identifying records in databases
+Creating unique session IDs
+Generating unique keys for objects in programming
+An example of a GUID might look like this:
+
+	d2c9d8f1-b625-4cc7-bc3b-890c5245e9f2
+
+The purpose of a GUID is to avoid any collisions between identifiers, making sure that each one is distinct, even if created at different times or locations.
