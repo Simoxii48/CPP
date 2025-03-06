@@ -27,6 +27,6 @@ int main()
     cout << person.getFirstName() << endl;
 
     // instead of the above we only write this
-    Person1.FirstName = "Mohammed";
-    cout << Person1.FirstName;
+    person.FirstName = "Mohammed";
+    cout << person.FirstName;
 }
