@@ -17,7 +17,7 @@ int main()
     myName2.Value = "Abderrahime";
 
     // console out the new values
-    cout << "My new name1 is : " << myName1.Value << endl;
+    cout << "\nMy new name1 is : " << myName1.Value << endl;
     cout << "My new name2 is : " << myName2.Value << endl;
 
     // first Method of print first letter of each word
@@ -31,7 +31,11 @@ int main()
 
     string s = "you have my word";
     clsString::UpperFirstLetterOfEachWord(s);
-    cout << "Upper first letter of each word (Class function) invoked : " << s << endl;
+    cout << "Upper first letter of each word (Class function) invoked : " << s << endl << endl;
 
+    myName1.LowerFirstLetterOfEachWord();
+    cout << "lower first letter of each word method invoked           : " << myName1.Value << endl;
 
+    clsString::LowerFirstLetterOfEachWord(s);
+    cout << "lower first letter of each word (Class function) invoked : " << s << endl << endl;
 };
