@@ -139,5 +139,19 @@ public: // public members
 		return isupper(char1) ? tolower(char1) : toupper(char1);
 	}
 
-	
+	// static func to invert all string
+	static string InvertAllStringLettersCase(string S1)
+	{
+		for (short i = 0; i < S1.length(); i++)
+		{
+			S1[i] = InvertLetterCase(S1[i]);
+		}
+		return S1;
+	}
+
+	// inClass func
+	string InvertAllStringLettersCase()
+	{
+		return InvertAllStringLettersCase(_Value);
+	}
 };
