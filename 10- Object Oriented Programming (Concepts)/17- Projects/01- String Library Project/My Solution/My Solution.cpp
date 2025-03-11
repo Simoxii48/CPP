@@ -55,8 +55,10 @@ int main()
     cout << "upper all string (class function) invoked : " << s << endl << endl;
 
     // Sixth Method of invert a letter case from upper to lower or the opposite
-    cout << "myName instance change first index : " << myName1.InvertLetterCase('A') << endl;
-    cout << "myName instance change first index : " << myName1.InvertLetterCase('a') << endl;
+    cout << "class string method change char case : " << clsString::InvertLetterCase('A') << endl;
+    cout << "class string method change char case : " << clsString::InvertLetterCase('a') << endl << endl;
 
-
+    myName1.Value = "This is the NeW InstanCe UsEeD";
+    // Seventh Method of invert all letters of string
+    cout << "myName instance change its letters case : " << myName1.InvertAllStringLettersCase() << endl;
 };
