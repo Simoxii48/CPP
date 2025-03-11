@@ -13,7 +13,7 @@ int main()
     cout << "My default name2 is : " << myName2.Value << endl;
 
     // set new values using same previous concept
-    myName1.Value = "New Name Applied";
+    myName1.Value = "new name applied";
     myName2.Value = "Abderrahime";
 
     // console out the new values
@@ -23,6 +23,15 @@ int main()
     // first Method of print first letter of each word
     myName1.PrintFirstLetterOfEachWord();
     clsString::PrintFirstLetterOfEachWord("Hello there my name is moha");
+
+    // second Method of uppercase the first letter of each word in the instance
+    cout << endl;
+    myName1.UpperFirstLetterOfEachWord();
+    cout << "Upper first letter of each word method invoked           : " << myName1.Value << endl;
+
+    string s = "you have my word";
+    clsString::UpperFirstLetterOfEachWord(s);
+    cout << "Upper first letter of each word (Class function) invoked : " << s << endl;
 
 
 };
