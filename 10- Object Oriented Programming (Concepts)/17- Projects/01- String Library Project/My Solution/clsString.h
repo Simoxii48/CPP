@@ -132,4 +132,12 @@ public: // public members
 	{
 		return LowerAllString(_Value);
 	}
+
+	// static func to invert a char
+	static char InvertLetterCase(char char1)
+	{
+		return isupper(char1) ? tolower(char1) : toupper(char1);
+	}
+
+	
 };
