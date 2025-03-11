@@ -58,5 +58,26 @@ public: // public members
 	{
 		PrintFirstLetterOfEachWord(_Value);
 	}
+
+	// static function to use from the class
+	static string UpperFirstLetterOfEachWord(string& S1)
+	{
+		bool isFirstLetter = true;
+		for (short i = 0; i < S1.length(); i++)
+		{
+			if (S1[i] != ' ' && isFirstLetter)
+			{
+				S1[i] = toupper(S1[i]);
+			}
+			isFirstLetter = (S1[i] == ' ' ? true : false);
+		}
+		return S1;
+	}
+
+	// inClass function to be used for the instance
+	string UpperFirstLetterOfEachWord()
+	{
+		return UpperFirstLetterOfEachWord(_Value);
+	}
 };
 
