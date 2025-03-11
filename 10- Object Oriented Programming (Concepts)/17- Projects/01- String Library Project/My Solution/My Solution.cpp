@@ -1,19 +1,28 @@
 #include <iostream>
-#include "clsString.h"
+#include "clsString.h" // library calling
 using namespace std;
 
 
 int main()
 {
-    clsString myName1;
-    clsString myName2("Mohammed");
+    clsString myName1; // new instance initilization with default constructor
+    clsString myName2("Mohammed"); // new instance initialization with parameterized constructor
 
+    // Get values using the declspec concept
     cout << "My default name1 is : " << myName1.Value << endl;
     cout << "My default name2 is : " << myName2.Value << endl;
 
+    // set new values using same previous concept
     myName1.Value = "New Name Applied";
     myName2.Value = "Abderrahime";
 
+    // console out the new values
     cout << "My new name1 is : " << myName1.Value << endl;
     cout << "My new name2 is : " << myName2.Value << endl;
-}
+
+    // first Method of print first letter of each word
+    myName1.PrintFirstLetterOfEachWord();
+    clsString::PrintFirstLetterOfEachWord("Hello there my name is moha");
+
+
+};
