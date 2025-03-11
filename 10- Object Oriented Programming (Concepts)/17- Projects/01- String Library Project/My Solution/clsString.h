@@ -100,5 +100,36 @@ public: // public members
 	{
 		return LowerFirstLetterOfEachWord(_Value);
 	}
-};
 
+	// static function for outside use
+	static string UpperAllString(string& S1)
+	{
+		for (short i = 0; i < S1.length(); i++)
+		{
+			S1[i] = toupper(S1[i]);
+		}
+		return S1;
+	}
+
+	// inClass function 
+	string UpperAllString()
+	{
+		return UpperAllString(_Value);
+	}
+
+	// static function for outside use
+	static string LowerAllString(string& S1)
+	{
+		for (short i = 0; i < S1.length(); i++)
+		{
+			S1[i] = tolower(S1[i]);
+		}
+		return S1;
+	}
+
+	// inClass function 
+	string LowerAllString()
+	{
+		return LowerAllString(_Value);
+	}
+};
