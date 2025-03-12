@@ -501,5 +501,30 @@ public: // public members
 		return S1.substr(0, S1.length() - Delim.length());
 	}
 
-	
+	// static reverse words in string
+	static string ReverseWordsInString(string S1)
+	{
+		vector<string> vString;
+		string S2 = "";
+		vString = SplitString(S1, " ");
+
+		// declare iterator
+		vector<string>::iterator iter = vString.end();
+
+		while (iter != vString.begin())
+		{
+			--iter;
+			S2 += *iter + " ";
+		}
+
+		S2 = S2.substr(0, S2.length() - 1); //remove last space.
+
+		return S2;
+	}
+
+	// instance method
+	string ReverseWordsInString()
+	{
+		return ReverseWordsInString(_Value);
+	}
 };
