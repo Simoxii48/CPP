@@ -482,7 +482,7 @@ public: // public members
 		return S1.substr(0, S1.length() - Delim.length());
 	}
 
-	// instance method
+	// instance method 
 	string JoinString(vector<string> vString)
 	{
 		return JoinString(vString, " ");
