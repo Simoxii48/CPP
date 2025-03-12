@@ -77,4 +77,11 @@ int main()
     cout << "\nstring number of letters : " << clsString::CountLetters("this is just a sample to count") << endl;
     cout << "string number of small letters : " << clsString::CountSmallLetters("This Is Just A Sample To Count") << endl;
     cout << "string number of capital letters : " << clsString::CountCapitalLetters("THIs Is JUSt A SaMplE TO CounT") << endl << endl;
+
+    // Ninth Method of counting spec letter
+    myName1.Value = "Mohammed Marked down Milestones of Programming";
+    cout << "myName instance count of letter 'm' : " << myName1.CountSpecLetter('m') << endl;
+
+    // class func
+    cout << "string count of letter 'A' : " << clsString::CountSpecLetter("A lot cAan make A lot Of AaA", 'A') << endl;
 };
