@@ -97,5 +97,9 @@ int main()
     cout << "Is the char vowel 'e' : " << clsString::IsVowel('e') << endl;
     cout << "Is the char vowel 'X' : " << clsString::IsVowel('X') << endl << endl;
 
+    // Next Method of counting vowels
+    cout << "myName instance number of vowels : " << myName1.CountVowels() << endl;
 
+    // class func
+    cout << "string number of vowels : " << clsString::CountVowels("How many are the vowels in that string") << endl;
 };
