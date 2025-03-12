@@ -79,7 +79,7 @@ int main()
     cout << "string number of capital letters : " << clsString::CountCapitalLetters("THIs Is JUSt A SaMplE TO CounT") << endl << endl;
 
     // Ninth Method of counting spec letter
-    myName1.Value = "Mohammed Marked down Milestones of Programming";
+    myName1.Value = "Mohammed Marked down Milestones of Programming And U";
     cout << "myName instance count of letter 'm' : " << myName1.CountSpecLetter('m') << endl;
 
     // class func
@@ -101,5 +101,12 @@ int main()
     cout << "myName instance number of vowels : " << myName1.CountVowels() << endl;
 
     // class func
-    cout << "string number of vowels : " << clsString::CountVowels("How many are the vowels in that string") << endl;
+    cout << "string number of vowels : " << clsString::CountVowels("How many are the vowels in that string") << endl << endl;
+
+    // next Method to print vowels
+    myName1.PrintVowels();
+
+    // class func
+    clsString::PrintVowels("How many are the vowels in that string");
+
 };
