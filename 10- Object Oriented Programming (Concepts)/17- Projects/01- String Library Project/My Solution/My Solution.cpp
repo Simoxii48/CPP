@@ -58,7 +58,23 @@ int main()
     cout << "class string method change char case : " << clsString::InvertLetterCase('A') << endl;
     cout << "class string method change char case : " << clsString::InvertLetterCase('a') << endl << endl;
 
-    myName1.Value = "This is the NeW InstanCe UsEeD";
     // Seventh Method of invert all letters of string
+    myName1.Value = "This is the NeW InstanCe UsEeD";
     cout << "myName instance change its letters case : " << myName1.InvertAllStringLettersCase() << endl;
+
+    // Eight Method of counting choosing cases
+
+    // count all letters
+    cout << "\nmyName instance number of letters : " << myName1.CountLetters() << endl;
+
+    // count small letters
+    cout << "myName instance number of small letters : " << myName1.CountSmallLetters() << endl;
+
+    // count capital letters
+    cout << "myName instance number of capital letters : " << myName1.CountCapitalLetters() << endl;
+
+    // We do have as well class function straight no instance needed
+    cout << "\nstring number of letters : " << clsString::CountLetters("this is just a sample to count") << endl;
+    cout << "string number of small letters : " << clsString::CountSmallLetters("This Is Just A Sample To Count") << endl;
+    cout << "string number of capital letters : " << clsString::CountCapitalLetters("THIs Is JUSt A SaMplE TO CounT") << endl << endl;
 };
