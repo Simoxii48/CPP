@@ -109,4 +109,9 @@ int main()
     // class func
     clsString::PrintVowels("How many are the vowels in that string");
 
+    // Next method of printing each word in a string
+    myName1.PrintEachWordInString();
+
+    // class func
+    clsString::PrintEachWordInString("Hope you are enjoying the journey Xb");
 };
