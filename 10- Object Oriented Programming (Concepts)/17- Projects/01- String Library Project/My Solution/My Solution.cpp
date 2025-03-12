@@ -174,5 +174,9 @@ int main()
     cout << "myName instance joined string : " << myName1.JoinString(vWords) << endl;
 
     // class func
-    cout << "class joined string           : " << clsString::JoinString(vClassWords, " ") << endl;
+    cout << "class joined string           : " << clsString::JoinString(vClassWords, " ") << endl << endl;
+
+    // class func
+    string arrNames[4] = { "Mohammed","Abdoerrahime","Ziko","Oussema" };
+    cout << "array names joined with class function  : " << clsString::JoinString(arrNames, 4, "-") << endl << endl;
 };
