@@ -417,5 +417,55 @@ public: // public members
 		return SplitString(_Value, delim);
 	}
 
+	// static trim functions
 
+	// static trim left
+	static string TrimLeft(string S1)
+	{
+		for (short i = 0; i < S1.length(); i++)
+		{
+			if (S1[i] != ' ')
+			{
+				return S1.substr(i, S1.length() - i);
+			}
+		}
+		return "";
+	}
+
+	// instance trim left
+	string TrimLeft()
+	{
+		return TrimLeft(_Value);
+	}
+
+	// static trim right
+	static string TrimRight(string S1)
+	{
+		for (short i = S1.length() - 1; i >= 0; i--)
+		{
+			if (S1[i] != ' ')
+			{
+				return S1.substr(0, i + 1);
+			}
+		}
+		return "";
+	}
+
+	// instance trim right
+	string TrimRight()
+	{
+		return TrimRight(_Value);
+	}
+
+	// static trim both sides
+	static string Trim(string S1)
+	{
+		return (TrimLeft(TrimRight(S1)));
+	}
+
+	// instance trim both sides
+	string Trim()
+	{
+		return (TrimLeft(TrimRight(_Value)));
+	}
 };
