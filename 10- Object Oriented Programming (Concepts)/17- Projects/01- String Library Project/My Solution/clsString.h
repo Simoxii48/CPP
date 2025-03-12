@@ -154,4 +154,84 @@ public: // public members
 	{
 		return InvertAllStringLettersCase(_Value);
 	}
+
+	// enum for what to count
+	enum enWhatToCount { SmallLetters = 0, CapitalLetters = 1, All = 3 };
+
+	// count spec case
+	static short CountLetters(string S1, enWhatToCount
+		WhatToCount = enWhatToCount::All)
+	{
+		if (WhatToCount == enWhatToCount::All)
+		{
+			return S1.length();
+		}
+		short Counter = 0;
+		for (short i = 0; i < S1.length(); i++)
+		{
+			if (WhatToCount == enWhatToCount::CapitalLetters && isupper(S1[i]))
+				Counter++;
+			if (WhatToCount == enWhatToCount::SmallLetters && islower(S1[i]))
+				Counter++;
+		}
+		return Counter;
+	}
+
+	// instance method
+	short CountLetters()
+	{
+		return CountLetters(_Value, enWhatToCount::All);
+	}
+
+	// count capital case
+	/*
+	short CountCapitalLetters(string S1)
+	{
+		short Counter = 0;
+		for (short i = 0; i < S1.length(); i++)
+		{
+			if (isupper(S1[i]))
+				Counter++;
+		}
+		return Counter;
+	}
+	*/
+
+	// My extra count capital func
+	static short CountCapitalLetters(string S1)
+	{
+		return CountLetters(S1, enWhatToCount::CapitalLetters);
+	}
+
+	// instance method
+	short CountCapitalLetters()
+	{
+		return CountCapitalLetters(_Value);
+	}
+
+	// count small case
+	/*
+	short CountSmallLetters(string S1)
+	{
+		short Counter = 0;
+		for (short i = 0; i < S1.length(); i++)
+		{
+			if (islower(S1[i]))
+				Counter++;
+		}
+		return Counter;
+	}
+	*/
+
+	// My Extra count small func
+	static short CountSmallLetters(string S1)
+	{
+		return CountLetters(S1, enWhatToCount::SmallLetters);
+	}
+
+	// instance method
+	short CountSmallLetters()
+	{
+		return CountSmallLetters(_Value);
+	}
 };
