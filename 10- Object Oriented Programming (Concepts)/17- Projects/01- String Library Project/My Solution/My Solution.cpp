@@ -83,5 +83,12 @@ int main()
     cout << "myName instance count of letter 'm' : " << myName1.CountSpecLetter('m') << endl;
 
     // class func
-    cout << "string count of letter 'A' : " << clsString::CountSpecLetter("A lot cAan make A lot Of AaA", 'A') << endl;
+    cout << "string count of letter 'A' : " << clsString::CountSpecLetter("A lot cAan make A lot Of AaA", 'A') << endl << endl;
+
+    // Tenth Method of counting case sentivive or insensitive 
+    cout << "myName instance count of letter 'm' & 'M' : " << myName1.countSpecLetterNonCaseSensitive('m') << endl;
+
+    // class func
+    cout << "string count of letter 'A' : " << clsString::countSpecLetterNonCaseSensitive("A lot cAan make A lot Of AaA", 'A') << endl << endl;
+
 };
