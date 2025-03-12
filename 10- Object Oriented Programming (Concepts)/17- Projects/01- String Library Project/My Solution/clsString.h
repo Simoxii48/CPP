@@ -272,4 +272,14 @@ public: // public members
 	{
 		return CountSpecLetter(_Value, Letter, false);
 	}
+
+	// static func
+	static bool IsVowel(char Ch1)
+	{
+		Ch1 = tolower(Ch1);
+		return ((tolower(Ch1) == 'a') || (tolower(Ch1) == 'e') || (tolower(Ch1) == 'i') || (tolower(Ch1)
+			== 'o') || (tolower(Ch1) == 'u'));
+	}
+
+
 };
