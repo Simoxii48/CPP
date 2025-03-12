@@ -142,4 +142,31 @@ int main()
     {
         cout << s << endl;
     }
+
+    cout << endl;
+    // Next Method of trim functions
+    myName1.Value = "  Mohammed Marked down Milestones of Programming And U  ";
+
+    // instance trim left
+    cout << "myName instance trim left  : " << myName1.TrimLeft() << endl;
+
+    // class func
+    string s1 = "  Hope you are enjoying the journey Xb  ";
+    cout << "class trim left            : " << clsString::TrimLeft(s1) << endl;
+
+    cout << endl;
+
+    // instance trim right
+    cout << "myName instance trim right : " << myName1.TrimRight() << endl;
+
+    // class func
+    cout << "class trim right           : " << clsString::TrimRight(s1) << endl;
+
+    cout << endl;
+
+    // instance trim
+    cout << "myName instance trim       : " << myName1.Trim() << endl;
+
+    // class func
+    cout << "class trim                 : " << clsString::Trim(s1) << endl << endl;
 };
