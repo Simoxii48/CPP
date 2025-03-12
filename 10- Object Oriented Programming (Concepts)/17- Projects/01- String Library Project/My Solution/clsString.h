@@ -236,13 +236,21 @@ public: // public members
 	}
 
 	// static count spec letter
-	static short CountSpecLetter(string S1, char Letter)
+	static short CountSpecLetter(string S1, char Letter, bool MatchCase = true)
 	{
 		short Counter = 0;
 		for (short i = 0; i < S1.length(); i++)
 		{
-			if (S1[i] == Letter)
-				Counter++;
+			if (MatchCase)
+			{
+				if (S1[i] == Letter)
+					Counter++;
+			}
+			else
+			{
+				if (tolower(S1[i]) == tolower(Letter))
+					Counter++;
+			}
 		}
 		return Counter;
 	}
@@ -251,5 +259,17 @@ public: // public members
 	short CountSpecLetter(char Letter)
 	{
 		return CountSpecLetter(_Value, Letter);
+	}
+
+	// static func
+	static short countSpecLetterNonCaseSensitive(string S, char Letter)
+	{
+		return CountSpecLetter(S, Letter, false);
+	}
+
+	// instance method to count case sensitive
+	short countSpecLetterNonCaseSensitive(char Letter)
+	{
+		return CountSpecLetter(_Value, Letter, false);
 	}
 };
