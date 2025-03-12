@@ -298,4 +298,22 @@ public: // public members
 	{
 		return CountVowels(_Value);
 	}
+
+	// static print vowels
+	static void PrintVowels(string S1)
+	{
+		cout << "\nVowels in string are: ";
+		for (short i = 0; i < S1.length(); i++)
+		{
+			if (IsVowel(S1[i]))
+				cout << S1[i] << " ";
+		}
+		cout << endl;
+	}
+
+	// instance method
+	void PrintVowels()
+	{
+		PrintVowels(_Value);
+	}
 };
