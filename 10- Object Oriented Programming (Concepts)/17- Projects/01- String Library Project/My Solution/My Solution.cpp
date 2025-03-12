@@ -18,7 +18,7 @@ int main()
 
     // console out the new values
     cout << "\nMy new name1 is : " << myName1.Value << endl;
-    cout << "My new name2 is : " << myName2.Value << endl;
+    cout << "My new name2 is   : " << myName2.Value << endl;
 
     // first Method of print first letter of each word
     myName1.PrintFirstLetterOfEachWord();
@@ -42,14 +42,14 @@ int main()
 
     // fourth Method of lowercase all the string
     myName1.LowerAllString();
-    cout << "lower all string method invoked : " << myName1.Value << endl;
+    cout << "lower all string method invoked           : " << myName1.Value << endl;
     
     s = clsString::LowerAllString(s);
     cout << "lower all string (class function) invoked : " << s << endl;
 
     // fifth Method of uppercase all the string
     myName1.UpperAllString();
-    cout << "upper all string method invoked : " << myName1.Value << endl << endl;
+    cout << "upper all string method invoked           : " << myName1.Value << endl << endl;
 
     s = clsString::UpperAllString(s);
     cout << "upper all string (class function) invoked : " << s << endl << endl;
@@ -65,17 +65,17 @@ int main()
     // Eight Method of counting choosing cases
 
     // count all letters
-    cout << "\nmyName instance number of letters : " << myName1.CountLetters() << endl;
+    cout << "\nmyName instance number of letters       : " << myName1.CountLetters() << endl;
 
     // count small letters
-    cout << "myName instance number of small letters : " << myName1.CountSmallLetters() << endl;
+    cout << "myName instance number of small letters   : " << myName1.CountSmallLetters() << endl;
 
     // count capital letters
     cout << "myName instance number of capital letters : " << myName1.CountCapitalLetters() << endl;
 
     // We do have as well class function straight no instance needed
-    cout << "\nstring number of letters : " << clsString::CountLetters("this is just a sample to count") << endl;
-    cout << "string number of small letters : " << clsString::CountSmallLetters("This Is Just A Sample To Count") << endl;
+    cout << "\nstring number of letters       : " << clsString::CountLetters("this is just a sample to count") << endl;
+    cout << "string number of small letters   : " << clsString::CountSmallLetters("This Is Just A Sample To Count") << endl;
     cout << "string number of capital letters : " << clsString::CountCapitalLetters("THIs Is JUSt A SaMplE TO CounT") << endl << endl;
 
     // Ninth Method of counting spec letter
@@ -83,13 +83,13 @@ int main()
     cout << "myName instance count of letter 'm' : " << myName1.CountSpecLetter('m') << endl;
 
     // class func
-    cout << "string count of letter 'A' : " << clsString::CountSpecLetter("A lot cAan make A lot Of AaA", 'A') << endl << endl;
+    cout << "string count of letter 'A'          : " << clsString::CountSpecLetter("A lot cAan make A lot Of AaA", 'A') << endl << endl;
 
     // Tenth Method of counting case sentivive or insensitive 
     cout << "myName instance count of letter 'm' & 'M' : " << myName1.countSpecLetterNonCaseSensitive('m') << endl;
 
     // class func
-    cout << "string count of letter 'A' : " << clsString::countSpecLetterNonCaseSensitive("A lot cAan make A lot Of AaA", 'A') << endl << endl;
+    cout << "string count of letter 'A'                : " << clsString::countSpecLetterNonCaseSensitive("A lot cAan make A lot Of AaA", 'A') << endl << endl;
 
     // Eleventh Method of checkinh if the char is vowel
     cout << "Is the char vowel 'A' : " << clsString::IsVowel('A') << endl;
@@ -101,7 +101,7 @@ int main()
     cout << "myName instance number of vowels : " << myName1.CountVowels() << endl;
 
     // class func
-    cout << "string number of vowels : " << clsString::CountVowels("How many are the vowels in that string") << endl << endl;
+    cout << "string number of vowels          : " << clsString::CountVowels("How many are the vowels in that string") << endl << endl;
 
     // next Method to print vowels
     myName1.PrintVowels();
@@ -121,7 +121,7 @@ int main()
     cout << "count words in myName instance : " << myName1.CountWords() << endl;
 
     // class func
-    cout << "count words in string " << clsString::CountWords("Hope you are enjoying the journey Xb") << endl << endl;
+    cout << "count words in string          : " << clsString::CountWords("Hope you are enjoying the journey Xb") << endl << endl;
 
     // Next Method of vector of words
     vector<string> vWords = myName1.SplitString();
@@ -137,7 +137,7 @@ int main()
     vector<string> vClassWords = clsString::SplitString("Hope you are enjoying the journey Xb"," ");
 
     // print class words
-    cout << "\nclass vector words : " << vClassWords.size() << "\n" << endl;
+    cout << "\nclass vector words        : " << vClassWords.size() << "\n" << endl;
     for (string& s : vClassWords)
     {
         cout << s << endl;
@@ -169,4 +169,10 @@ int main()
 
     // class func
     cout << "class trim                 : " << clsString::Trim(s1) << endl << endl;
+
+    // instance join string
+    cout << "myName instance joined string : " << myName1.JoinString(vWords) << endl;
+
+    // class func
+    cout << "class joined string           : " << clsString::JoinString(vClassWords, " ") << endl;
 };

@@ -1,6 +1,8 @@
 #pragma once
+
 #include <iostream>
 #include <vector>
+#include <string>
 using namespace std;
 
 // string class declaration
@@ -467,5 +469,22 @@ public: // public members
 	string Trim()
 	{
 		return (TrimLeft(TrimRight(_Value)));
+	}
+
+	// static join string
+	static string JoinString(vector<string> vString, string Delim)
+	{
+		string S1 = "";
+		for (string& s : vString)
+		{
+			S1 = S1 + s + Delim;
+		}
+		return S1.substr(0, S1.length() - Delim.length());
+	}
+
+	// instance method
+	string JoinString(vector<string> vString)
+	{
+		return JoinString(vString, " ");
 	}
 };
