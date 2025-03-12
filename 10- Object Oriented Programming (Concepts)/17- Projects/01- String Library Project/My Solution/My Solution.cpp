@@ -114,4 +114,14 @@ int main()
 
     // class func
     clsString::PrintEachWordInString("Hope you are enjoying the journey Xb");
+
+    cout << endl;
+
+    // Next Method to count words
+    cout << "count words in myName instance : " << myName1.CountWords() << endl;
+
+    // class func
+    cout << "count words in string " << clsString::CountWords("Hope you are enjoying the journey Xb") << endl << endl;
+
+
 };
