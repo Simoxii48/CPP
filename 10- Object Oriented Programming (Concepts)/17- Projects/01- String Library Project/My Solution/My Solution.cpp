@@ -123,5 +123,23 @@ int main()
     // class func
     cout << "count words in string " << clsString::CountWords("Hope you are enjoying the journey Xb") << endl << endl;
 
+    // Next Method of vector of words
+    vector<string> vWords = myName1.SplitString();
 
+    // print vector contents
+    cout << "myName instance vector words : " << vWords.size() << "\n" << endl;
+    for (string& s : vWords)
+    {
+        cout << s << endl;
+    }
+
+    // class func
+    vector<string> vClassWords = clsString::SplitString("Hope you are enjoying the journey Xb"," ");
+
+    // print class words
+    cout << "\nclass vector words : " << vClassWords.size() << "\n" << endl;
+    for (string& s : vClassWords)
+    {
+        cout << s << endl;
+    }
 };
