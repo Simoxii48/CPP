@@ -234,4 +234,22 @@ public: // public members
 	{
 		return CountSmallLetters(_Value);
 	}
+
+	// static count spec letter
+	static short CountSpecLetter(string S1, char Letter)
+	{
+		short Counter = 0;
+		for (short i = 0; i < S1.length(); i++)
+		{
+			if (S1[i] == Letter)
+				Counter++;
+		}
+		return Counter;
+	}
+
+	// instance method
+	short CountSpecLetter(char Letter)
+	{
+		return CountSpecLetter(_Value, Letter);
+	}
 };
