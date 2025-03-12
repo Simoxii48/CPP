@@ -281,5 +281,21 @@ public: // public members
 			== 'o') || (tolower(Ch1) == 'u'));
 	}
 
+	// static count vowels
+	static short CountVowels(string S1)
+	{
+		short Counter = 0;
+		for (short i = 0; i < S1.length(); i++)
+		{
+			if (IsVowel(S1[i]))
+				Counter++;
+		}
+		return Counter;
+	}
 
+	// instance method
+	short CountVowels()
+	{
+		return CountVowels(_Value);
+	}
 };
