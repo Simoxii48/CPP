@@ -179,4 +179,12 @@ int main()
     // class func
     string arrNames[4] = { "Mohammed","Abdoerrahime","Ziko","Oussema" };
     cout << "array names joined with class function  : " << clsString::JoinString(arrNames, 4, "-") << endl << endl;
+
+    // instance reverse words method
+    cout << "myName instance value      : " << myName1.Value << endl;
+    cout << "myName instance in reverse : " << myName1.ReverseWordsInString() << endl;
+
+    // class func
+    cout << "class value                : " << s1 << endl;
+    cout << "class in reverse           : " << clsString::ReverseWordsInString(s1) << endl << endl;
 };
