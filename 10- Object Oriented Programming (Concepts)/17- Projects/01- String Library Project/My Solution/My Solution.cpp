@@ -91,4 +91,11 @@ int main()
     // class func
     cout << "string count of letter 'A' : " << clsString::countSpecLetterNonCaseSensitive("A lot cAan make A lot Of AaA", 'A') << endl << endl;
 
+    // Eleventh Method of checkinh if the char is vowel
+    cout << "Is the char vowel 'A' : " << clsString::IsVowel('A') << endl;
+    cout << "Is the char vowel 'j' : " << clsString::IsVowel('j') << endl;
+    cout << "Is the char vowel 'e' : " << clsString::IsVowel('e') << endl;
+    cout << "Is the char vowel 'X' : " << clsString::IsVowel('X') << endl << endl;
+
+
 };
