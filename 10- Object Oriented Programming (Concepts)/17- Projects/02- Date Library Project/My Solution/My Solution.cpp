@@ -24,5 +24,7 @@ int main()
     cout << "Number of days in month of Date1   : " << Date1.NumberOfDaysInAMonth() << endl;
     cout << "Number of days in year of Date1    : " << Date1.NumberOfDaysInAYear() << endl;
     cout << "Number of hours in year of Date1   : " << Date1.NumberOfHoursInAYear() << endl;
-    cout << "Number of minutes i year of Date1  : " << Date1.NumberOfMinutesInAYear() << endl;
+    cout << "Number of minutes in year of Date1 : " << Date1.NumberOfMinutesInAYear() << endl;
+    cout << "Number of seconds in year of Date1 : " << Date1.NumberOfSecondsInAYear() << endl;
+
 }
