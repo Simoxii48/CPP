@@ -29,5 +29,6 @@ int main()
 
     cout << "Number of Hours in month of Date1  : " << Date1.NumberOfHoursInAMonth() << endl;
     cout << "Number of Minutes in month of Date1: " << Date1.NumberOfMinutesInAMonth() << endl;
+    cout << "Number of Seconds in month of Date1: " << Date1.NumberOfSecondsInAMonth() << endl;
 
 }
