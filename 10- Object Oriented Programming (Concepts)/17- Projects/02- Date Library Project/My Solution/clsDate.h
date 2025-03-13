@@ -158,4 +158,16 @@ public:
 	{
 		return NumberOfSecondsInAYear(_Year);
 	}
+
+	// static
+	static short NumberOfHoursInAMonth(short Month, short Year)
+	{
+		return NumberOfDaysInAMonth(Month, Year) * 24;
+	}
+
+	// method
+	short NumberOfHoursInAMonth()
+	{
+		return NumberOfHoursInAMonth(_Month, _Year);
+	}
 };
