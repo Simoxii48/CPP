@@ -199,4 +199,18 @@ int main()
     // class func
     cout << "class value                : " << s1 << endl;
     cout << "class after replace        : " << clsString::ReplaceWordInStringUsingBuiltInFunction(s1, "Hope", "Wish") << endl << endl;
+
+    // instance replace word method
+    cout << "myName instance value                            : " << myName1.Value << endl;
+    cout << "myName instance after replace (case sensitive)   : " << myName1.ReplaceWordInStringUsingSplit("down", "a lot") << endl;
+    cout << "myName instance after replace (case insensitive) : " << myName1.ReplaceWordInStringUsingSplit("Down", "a lot", false) << endl;
+
+    cout << endl;
+
+    // class func
+    cout << "class value                                      : " << s1 << endl;
+    cout << "class after replace (case sensitive)             : " << clsString::ReplaceWordInStringUsingSplit(s1, "Hope", "wish", true) << endl << endl;
+    cout << "class after replace (case insensitive)           : " << clsString::ReplaceWordInStringUsingSplit(s1, "hope", "Wish", false) << endl << endl;
+
+
 };
