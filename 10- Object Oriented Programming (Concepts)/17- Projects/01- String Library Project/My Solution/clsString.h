@@ -579,4 +579,24 @@ public: // public members
 	{
 		return ReplaceWordInStringUsingSplit(_Value, StringToReplace, sRepalceTo, MatchCase);
 	}
+
+	// static remove punct 
+	static string RemovePunctuationsFromString(string S1)
+	{
+		string S2 = "";
+		for (short i = 0; i < S1.length(); i++)
+		{
+			if (!ispunct(S1[i]))
+			{
+				S2 += S1[i];
+			}
+		}
+		return S2;
+	}
+	
+	// instance method
+	string RemovePunctuationsFromString()
+	{
+		return RemovePunctuationsFromString(_Value);
+	}
 };
