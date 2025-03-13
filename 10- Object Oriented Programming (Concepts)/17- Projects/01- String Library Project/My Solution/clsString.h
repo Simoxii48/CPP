@@ -529,8 +529,8 @@ public: // public members
 	}
 
 	// static replace func
-	static string ReplaceWordInStringUsingBuiltInFunction(string S1, string
-		StringToReplace, string sRepalceTo)
+	static string ReplaceWordInStringUsingBuiltInFunction(string S1, 
+		string StringToReplace, string sRepalceTo)
 	{
 		short pos = S1.find(StringToReplace);
 		while (pos != std::string::npos)
@@ -547,5 +547,36 @@ public: // public members
 		return ReplaceWordInStringUsingBuiltInFunction(_Value, StringToReplace, sRepalceTo);
 	}
 
+	// static replace func
+	static string ReplaceWordInStringUsingSplit(string S1, string
+		StringToReplace, string sRepalceTo, bool MatchCase = true)
+	{
+		vector<string> vString = SplitString(S1, " ");
+		for (string& s : vString)
+		{
+			if (MatchCase)
+			{
+				if (s == StringToReplace)
+				{
+					s = sRepalceTo;
+				}
+			}
+			else
+			{
+				if (LowerAllString(s) ==
+					LowerAllString(StringToReplace))
+				{
+					s = sRepalceTo;
+				}
+			}
+		}
+		return JoinString(vString, " ");
+	}
 
+	// instance method
+	string ReplaceWordInStringUsingSplit(string StringToReplace, string sRepalceTo, 
+		bool MatchCase = true)
+	{
+		return ReplaceWordInStringUsingSplit(_Value, StringToReplace, sRepalceTo, MatchCase);
+	}
 };
