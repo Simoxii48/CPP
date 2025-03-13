@@ -209,8 +209,18 @@ int main()
 
     // class func
     cout << "class value                                      : " << s1 << endl;
-    cout << "class after replace (case sensitive)             : " << clsString::ReplaceWordInStringUsingSplit(s1, "Hope", "wish", true) << endl << endl;
+    cout << "class after replace (case sensitive)             : " << clsString::ReplaceWordInStringUsingSplit(s1, "Hope", "wish", true) << endl;
     cout << "class after replace (case insensitive)           : " << clsString::ReplaceWordInStringUsingSplit(s1, "hope", "Wish", false) << endl << endl;
 
+    // instance remove punctuation marks
+    myName1.Value = "Mohammed; Marked down Milestones, of Programming And U:";
+    cout << "myName instance value                            : " << myName1.Value << endl;
+    cout << "myName instance after removing punctuations      : " << myName1.RemovePunctuationsFromString() << endl;
 
+    cout << endl;
+
+    // class func
+    s1 = "Hope; you are, enjoying the :journey Xb )";
+    cout << "class value                                      : " << s1 << endl;
+    cout << "class value after removing punctuations marks    : " << clsString::RemovePunctuationsFromString(s1) << endl << endl;
 };
