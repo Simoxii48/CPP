@@ -599,4 +599,53 @@ public: // public members
 	{
 		return RemovePunctuationsFromString(_Value);
 	}
+
+	// static convert struct to string
+	static struct sClient
+	{
+		string AccountNumber;
+		string PinCode;
+		string Name;
+		string Phone;
+		double AccountBalance;
+	};
+
+	// fill structure
+	static sClient ReadNewClient()
+	{
+		sClient Client;
+
+		cout << "Enter Account Number? ";
+		getline(cin, Client.AccountNumber);
+
+		cout << "Enter PinCode? ";
+		getline(cin, Client.PinCode);
+
+		cout << "Enter Name? ";
+		getline(cin, Client.Name);
+
+		cout << "Enter Phone? ";
+		getline(cin, Client.Phone);
+
+		cout << "Enter AccountBalance? ";
+		cin >> Client.AccountBalance;
+
+		return Client;
+	}
+
+	static string ConvertRecordToLine(sClient Client, string Seperator = "#//#")
+	{
+		//sClient Client = ReadNewClient();
+		string stClientRecord = "";
+
+		stClientRecord += Client.AccountNumber + Seperator;
+		stClientRecord += Client.PinCode + Seperator;
+		stClientRecord += Client.Name + Seperator;
+		stClientRecord += Client.Phone + Seperator;
+		stClientRecord += to_string(Client.AccountBalance);
+
+		return stClientRecord;
+	}
+
+
 };
