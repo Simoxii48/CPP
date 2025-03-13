@@ -134,4 +134,18 @@ public:
 	{
 		return NumberOfHoursInAYear(_Year);
 	}
+
+	// static 
+	static int NumberOfMinutesInAYear(short Year)
+	{
+		return NumberOfHoursInAYear(Year) * 60;
+	}
+
+	// method
+	int NumberOfMinutesInAYear()
+	{
+		return NumberOfMinutesInAYear(_Year);
+	}
+
+	
 };
