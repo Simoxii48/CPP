@@ -32,6 +32,15 @@ public:
 		_Month = stoi(splittedDate[1]);
 		_Year = stoi(splittedDate[2]);
 	};
+	
+	clsDate(short Day, short Month, short Year)
+	{
+		_Day = Day;
+		_Month = Month;
+		_Year = Year;
+	};
+
+
 
 	void print()
 	{
