@@ -180,4 +180,14 @@ public:
 	{
 		return NumberOfMinutesInAMonth(_Month, _Year);
 	}
+
+	static int NumberOfSecondsInAMonth(short Month, short Year)
+	{
+		return NumberOfMinutesInAMonth(Month, Year) * 60;
+	}
+
+	int NumberOfSecondsInAMonth()
+	{
+		return NumberOfSecondsInAMonth(_Month, _Year);
+	}
 };
