@@ -30,5 +30,6 @@ int main()
     cout << "Number of Hours in month of Date1   : " << Date1.NumberOfHoursInAMonth() << endl;
     cout << "Number of Minutes in month of Date1 : " << Date1.NumberOfMinutesInAMonth() << endl;
     cout << "Number of Seconds in month of Date1 : " << Date1.NumberOfSecondsInAMonth() << endl;
-    cout << "Number of day week order is of Date2: " << Date1.DayOfWeekOrder() << endl;
+    cout << "Number of day week order is of Date1: " << Date1.DayOfWeekOrder() << endl;
+    cout << "Day short name of Date1             : " << Date1.DayShortName() << endl;
 }
