@@ -226,7 +226,10 @@ int main()
 
     // class convert struct to line record
     clsString::sClient client = clsString::ReadNewClient();
-    cout << "\nclass convert record to line : " << clsString::ConvertRecordToLine(client) << endl << endl;
+    string line = clsString::ConvertRecordToLine(client);
+    cout << "\nclass convert record to line : " << line;
 
-
+    // class convert line to struct
+    clsString::sClient client2 = clsString::ConvertLinetoRecord(line);
+    clsString::PrintClientRecord(client2);
 };
