@@ -527,4 +527,25 @@ public: // public members
 	{
 		return ReverseWordsInString(_Value);
 	}
+
+	// static replace func
+	static string ReplaceWordInStringUsingBuiltInFunction(string S1, string
+		StringToReplace, string sRepalceTo)
+	{
+		short pos = S1.find(StringToReplace);
+		while (pos != std::string::npos)
+		{
+			S1 = S1.replace(pos, StringToReplace.length(), sRepalceTo);
+			pos = S1.find(StringToReplace);//find next
+		}
+		return S1;
+	}
+
+	// instance method
+	string ReplaceWordInStringUsingBuiltInFunction(string StringToReplace, string sRepalceTo)
+	{
+		return ReplaceWordInStringUsingBuiltInFunction(_Value, StringToReplace, sRepalceTo);
+	}
+
+
 };
