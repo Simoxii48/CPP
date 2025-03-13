@@ -147,5 +147,15 @@ public:
 		return NumberOfMinutesInAYear(_Year);
 	}
 
-	
+	// static 
+	static int NumberOfSecondsInAYear(short Year)
+	{
+		return NumberOfMinutesInAYear(Year) * 60;
+	}
+
+	// method
+	int NumberOfSecondsInAYear()
+	{
+		return NumberOfSecondsInAYear(_Year);
+	}
 };
