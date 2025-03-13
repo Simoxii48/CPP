@@ -59,6 +59,9 @@ public:
 	// static is leap year
 	static bool isLeapYear(short year)
 	{
+		// if year is divisible by 4 AND not divisible by 100
+		// OR if year is divisible by 400
+		// then it is a leap year
 		return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
 	}
 
@@ -106,5 +109,17 @@ public:
 				break;
 			}
 		}
+	}
+
+	// static number of days in year
+	static short NumberOfDaysInAYear(short Year)
+	{
+		return isLeapYear(Year) ? 366 : 365;
+	}
+
+	// number of days in year method
+	short NumberOfDaysInAYear()
+	{
+		return NumberOfDaysInAYear(_Year);
 	}
 };
