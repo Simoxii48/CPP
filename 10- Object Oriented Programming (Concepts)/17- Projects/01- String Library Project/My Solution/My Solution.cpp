@@ -223,4 +223,10 @@ int main()
     s1 = "Hope; you are, enjoying the :journey Xb )";
     cout << "class value                                      : " << s1 << endl;
     cout << "class value after removing punctuations marks    : " << clsString::RemovePunctuationsFromString(s1) << endl << endl;
+
+    // class convert struct to line record
+    clsString::sClient client = clsString::ReadNewClient();
+    cout << "\nclass convert record to line : " << clsString::ConvertRecordToLine(client) << endl << endl;
+
+
 };
