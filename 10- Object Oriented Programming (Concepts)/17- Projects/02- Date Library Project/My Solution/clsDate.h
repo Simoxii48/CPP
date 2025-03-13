@@ -122,4 +122,16 @@ public:
 	{
 		return NumberOfDaysInAYear(_Year);
 	}
+
+	// static number of hours in year
+	static short NumberOfHoursInAYear(short Year)
+	{
+		return NumberOfDaysInAYear(Year) * 24;
+	}
+
+	// number of hours in year method
+	short NumberOfHoursInAYear()
+	{
+		return NumberOfHoursInAYear(_Year);
+	}
 };
