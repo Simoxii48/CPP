@@ -184,7 +184,19 @@ int main()
     cout << "myName instance value      : " << myName1.Value << endl;
     cout << "myName instance in reverse : " << myName1.ReverseWordsInString() << endl;
 
+    cout << endl;
+
     // class func
     cout << "class value                : " << s1 << endl;
     cout << "class in reverse           : " << clsString::ReverseWordsInString(s1) << endl << endl;
+
+    // instance replace word method
+    cout << "myName instance value         : " << myName1.Value << endl;
+    cout << "myName instance after replace : " << myName1.ReplaceWordInStringUsingBuiltInFunction("down", "a lot") << endl;
+
+    cout << endl;
+
+    // class func
+    cout << "class value                : " << s1 << endl;
+    cout << "class after replace        : " << clsString::ReplaceWordInStringUsingBuiltInFunction(s1, "Hope", "Wish") << endl << endl;
 };
