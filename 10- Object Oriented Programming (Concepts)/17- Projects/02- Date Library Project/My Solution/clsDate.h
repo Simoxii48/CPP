@@ -190,4 +190,22 @@ public:
 	{
 		return NumberOfSecondsInAMonth(_Month, _Year);
 	}
+
+	static short DayOfWeekOrder(short Day, short Month, short Year)
+	{
+		short a, y, m;
+		a = (14 - Month) / 12;
+		y = Year - a;
+		m = Month + (12 * a) - 2;
+		// Gregorian:
+		//0:sun, 1:Mon, 2:Tue...etc
+
+		return (Day + y + (y / 4) - (y / 100) + (y / 400) + ((31 * m)
+			/ 12)) % 7;
+	}
+
+	short DayOfWeekOrder()
+	{
+		return DayOfWeekOrder(_Day, _Month, _Year);
+	}
 };
