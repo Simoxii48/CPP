@@ -208,4 +208,16 @@ public:
 	{
 		return DayOfWeekOrder(_Day, _Month, _Year);
 	}
+
+	static string DayShortName(short DayOfWeekOrder)
+	{
+		string arrDayNames[] = {
+		"Sun","Mon","Tue","Wed","Thu","Fri","Sat" };
+		return arrDayNames[DayOfWeekOrder];
+	}
+
+	string DayShortName()
+	{
+		return DayShortName(DayOfWeekOrder());
+	}
 };
