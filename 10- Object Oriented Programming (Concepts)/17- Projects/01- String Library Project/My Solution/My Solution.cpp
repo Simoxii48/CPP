@@ -232,4 +232,8 @@ int main()
     // class convert line to struct
     clsString::sClient client2 = clsString::ConvertLinetoRecord(line);
     clsString::PrintClientRecord(client2);
+
+    // instance add line to file
+    myName1.AddDataLineToFile("myName.txt");
+    clsString::AddDataLineToFile("class.txt", s1);
 };
