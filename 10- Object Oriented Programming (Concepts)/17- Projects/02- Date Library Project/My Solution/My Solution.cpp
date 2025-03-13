@@ -20,9 +20,9 @@ int main()
     cout << "Date4 : ";
     Date4.Print();
 
-    cout << "\nYear in Date1 instance is leap ? : " << Date1.isLeapYear() << endl;
-    cout << "Number of days in month of Date1 : " << Date1.NumberOfDaysInAMonth() << endl;
-    cout << "Number of days in year of Date1  : " << Date1.NumberOfDaysInAYear() << endl;
-    
+    cout << "\nYear in Date1 instance is leap ?   : " << Date1.isLeapYear() << endl;
+    cout << "Number of days in month of Date1   : " << Date1.NumberOfDaysInAMonth() << endl;
+    cout << "Number of days in year of Date1    : " << Date1.NumberOfDaysInAYear() << endl;
+    cout << "Number of hours in year of Date1   : " << Date1.NumberOfHoursInAYear() << endl;
     
 }
