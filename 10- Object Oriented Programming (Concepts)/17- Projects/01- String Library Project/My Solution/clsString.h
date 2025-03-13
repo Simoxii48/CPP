@@ -3,6 +3,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <fstream>
 using namespace std;
 
 // string class declaration
@@ -675,4 +676,22 @@ public: // public members
 		cout << endl;
 	}
 
+	// static add dataline to file
+	static void AddDataLineToFile(string FileName, string stDataLine)
+	{
+		fstream MyFile;
+		MyFile.open(FileName, ios::out | ios::app);
+		if (MyFile.is_open())
+		{
+			MyFile << stDataLine << endl;
+			MyFile.close();
+		}
+		cout << "\nFile updated" << endl;
+	}
+
+	// instance method
+	void AddDataLineToFile(string FileName)
+	{
+		return AddDataLineToFile(FileName, _Value);
+	}
 };
