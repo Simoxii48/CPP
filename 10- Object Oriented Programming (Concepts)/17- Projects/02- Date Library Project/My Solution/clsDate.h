@@ -811,4 +811,15 @@ public:
 	{
 		return DecreaseDateByXDecades(Decade, *this);
 	}
+
+	static clsDate DecreaseDateByXDecadesFaster(short Decade, clsDate& Date)
+	{
+		Date._Year -= Decade * 10;
+		return Date;
+	}
+
+	clsDate DecreaseDateByXDecadesFaster(short Decade)
+	{
+		return DecreaseDateByXDecadesFaster(Decade, *this);
+	}
 };
