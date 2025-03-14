@@ -164,4 +164,12 @@ int main()
 
     cout << endl;
 
+    cout << "Date3 : ";
+    Date3.Print();
+
+    xYears = 4;
+    Date3.IncreaseDateByXYearsFaster(xYears);
+
+    cout << "Date3 after adding " << xYears << " Year(s) faster method is : ";
+    Date3.Print();
 }
