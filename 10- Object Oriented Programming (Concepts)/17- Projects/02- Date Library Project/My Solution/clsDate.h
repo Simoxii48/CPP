@@ -590,4 +590,18 @@ public:
 	{
 		return IncreaseDateByOneDecade(*this);
 	}
+
+	static clsDate IncreaseDateByXDecades(short Decade, clsDate& Date)
+	{
+		for (short i = 1; i <= Decade * 10; i++)
+		{
+			Date = IncreaseDateByOneYear(Date);
+		}
+		return Date;
+	}
+
+	clsDate IncreaseDateByXDecades(short Decade)
+	{
+		return IncreaseDateByXDecades(Decade, *this);
+	}
 };
