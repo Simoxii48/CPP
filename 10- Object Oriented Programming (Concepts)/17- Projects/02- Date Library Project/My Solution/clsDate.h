@@ -268,4 +268,23 @@ public:
 	{
 		PrintMonthCalendar(_Month, _Year);
 	}
+
+	static void PrintYearCalendar(int Year)
+	{
+		printf("\n _________________________________\n\n");
+		printf("	Calendar - %d\n", Year);
+		printf(" _________________________________\n");
+
+		for (int i = 1; i <= 12; i++)
+		{
+			PrintMonthCalendar(i, Year);
+		}
+		return;
+	}
+
+
+	void PrintYearCalendar()
+	{
+		PrintYearCalendar(_Year);
+	}
 };
