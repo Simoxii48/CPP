@@ -372,4 +372,14 @@ int main()
         cout << "\nYes it is Saturday, it's of Week.\n";
     else
         cout << "\nNo it's Not end of week.\n";
+
+    cout << endl;
+
+    cout << "Is it Weekend?\n";
+    if (Date3.IsWeekEnd())
+        cout << "Yes it is a week end.\n";
+    else
+        cout << "No today is " <<
+        Date3.DayShortName() << ", Not a weekend.\n";
+
 }
