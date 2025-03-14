@@ -39,4 +39,12 @@ int main()
 
     cout << endl << "Number of days from the beginning of the year in Date1 is : " << Date1.NumberOfDaysFromTheBeginingOfTheYear() << endl;
     cout << endl << "Number of days from the beginning of the year in Date2 is : " << Date2.NumberOfDaysFromTheBeginingOfTheYear() << endl;
+    
+    cout << endl;
+
+    short xDays = 15;
+    cout << "Date1 after adding " << xDays << " day(s) :" << endl;
+    Date1.DateAddDays(xDays);
+    cout << "Date1 : ";
+    Date1.Print();
 }
