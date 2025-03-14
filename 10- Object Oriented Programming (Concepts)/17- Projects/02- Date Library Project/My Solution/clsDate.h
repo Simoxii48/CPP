@@ -947,4 +947,43 @@ public:
 	{
 		return CalculateVacationDays(*this, DateTo);
 	}
+
+	static clsDate CalculateVacationReturnDate(clsDate& DateFrom, short VacationDays)
+	{
+
+		short WeekEndCounter = 0;
+
+		//in case the data  is weekend keep adding one day util you reach business day
+		//we get rid of all weekends before the first business day
+		while (IsWeekEnd(DateFrom))
+		{
+			DateFrom = IncreaseDateByOneDay(DateFrom);
+		}
+
+		//here we increase the vacation dates to add all weekends to it.
+
+		for (short i = 1; i <= VacationDays + WeekEndCounter; i++)
+		{
+
+			if (IsWeekEnd(DateFrom))
+				WeekEndCounter++;
+
+			DateFrom = IncreaseDateByOneDay(DateFrom);
+		}
+
+		//in case the return date is week end keep adding one day util you reach business day
+		while (IsWeekEnd(DateFrom))
+		{
+			DateFrom = IncreaseDateByOneDay(DateFrom);
+		}
+
+		return DateFrom;
+	}
+
+	clsDate CalculateVacationReturnDate(short VacationDays)
+	{
+		return CalculateVacationReturnDate(*this, VacationDays);
+	}
+
+
 };
