@@ -681,4 +681,18 @@ public:
 	{
 		return DecreaseDateByOneWeek(*this);
 	}
+
+	static clsDate DecreaseDateByXWeeks(short Weeks, clsDate& Date)
+	{
+		for (short i = 1; i <= Weeks; i++)
+		{
+			Date = DecreaseDateByOneWeek(Date);
+		}
+		return Date;
+	}
+
+	clsDate DecreaseDateByXWeeks(short Weeks)
+	{
+		return DecreaseDateByXWeeks(Weeks, *this);
+	}
 };
