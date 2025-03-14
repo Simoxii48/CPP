@@ -382,4 +382,12 @@ int main()
         cout << "No today is " <<
         Date3.DayShortName() << ", Not a weekend.\n";
 
+    cout << endl;
+
+    cout << "Is it Business Day?\n";
+    if (Date3.IsBusinessDay())
+        cout << "Yes it is a business day.\n";
+    else
+        cout << "No it is NOT a business day.\n";
+
 }
