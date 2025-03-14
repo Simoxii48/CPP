@@ -78,4 +78,8 @@ int main()
     cout << "Date2 after adding 1 Day : ";
     Date2.Print();
 
+    cout << endl;
+
+    cout << "Difference in days between Date2 and Date 1 is : " <<
+        Date1.GetDifferenceInDays(Date2) << " Day(s)" << endl;
 }
