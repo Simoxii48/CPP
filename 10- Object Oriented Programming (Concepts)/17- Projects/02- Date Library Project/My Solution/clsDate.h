@@ -834,4 +834,16 @@ public:
 	{
 		return DecreaseDateByOneCentury(*this);
 	}
+
+	static clsDate DecreaseDateByOneMillennium(clsDate& Date)
+	{
+		//Period of 1000 years
+		Date._Year -= 1000;
+		return Date;
+	}
+
+	clsDate DecreaseDateByOneMillennium()
+	{
+		return DecreaseDateByOneMillennium(*this);
+	}
 };
