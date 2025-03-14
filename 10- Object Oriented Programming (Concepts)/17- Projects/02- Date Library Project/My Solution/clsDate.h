@@ -408,4 +408,21 @@ public:
 	{
 		return IncreaseDateByOneDay(*this);
 	}
+
+	static int GetDifferenceInDays(clsDate Date1, clsDate Date2, bool
+		IncludeEndDay = false)
+	{
+		int Days = 0;
+		while (IsDateBeforeDate2(Date1, Date2))
+		{
+			Days++;
+			Date1 = IncreaseDateByOneDay(Date1);
+		}
+		return IncludeEndDay ? ++Days : Days;
+	}
+
+	int GetDifferenceInDays(clsDate Date2, bool IncludeEndDay = false)
+	{
+		return GetDifferenceInDays(*this, Date2, IncludeEndDay);
+	}
 };
