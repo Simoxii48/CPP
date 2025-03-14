@@ -294,4 +294,14 @@ int main()
 
     cout << "Date3 after decrease 1 year : ";
     Date3.Print();
+
+    cout << endl;
+
+    cout << "Date3 : ";
+    Date3.Print();
+
+    Date3.DecreaseDateByXYears(xYears);
+
+    cout << "Date3 after decrease " << xYears << " year(s) : ";
+    Date3.Print();
 }
