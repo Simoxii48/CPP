@@ -627,4 +627,16 @@ public:
 	{
 		return IncreaseDateByOneCentury(*this);
 	}
+
+	static clsDate IncreaseDateByOneMillennium(clsDate& Date)
+	{
+		//Period of 1000 years
+		Date._Year += 1000;
+		return Date;
+	}
+
+	clsDate IncreaseDateByOneMillennium()
+	{
+		return IncreaseDateByOneMillennium(*this);
+	}
 };
