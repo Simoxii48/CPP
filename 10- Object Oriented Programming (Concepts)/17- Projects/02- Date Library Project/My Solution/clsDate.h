@@ -873,4 +873,19 @@ public:
 	{
 		return IsWeekEnd(*this);
 	}
+
+	static bool IsBusinessDay(clsDate Date)
+	{
+		//Weekends are Sun,Mon,Tue,Wed and Thur
+		/* short DayIndex = DayOfWeekOrder(Date);
+		return (DayIndex >= 5 && DayIndex <= 4);
+		*/
+		//shorter method is to invert the IsWeekEnd: this will save updating code.
+		return !IsWeekEnd(Date);
+	}
+
+	bool IsBusinessDay()
+	{
+		return IsBusinessDay(*this);
+	}
 };
