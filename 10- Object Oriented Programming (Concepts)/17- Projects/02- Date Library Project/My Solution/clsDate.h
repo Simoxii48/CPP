@@ -282,9 +282,24 @@ public:
 		return;
 	}
 
-
 	void PrintYearCalendar()
 	{
 		PrintYearCalendar(_Year);
+	}
+
+	static short NumberOfDaysFromTheBeginingOfTheYear(short Day, short Month, short Year)
+	{
+		short TotalDays = 0;
+		for (int i = 1; i <= Month - 1; i++)
+		{
+			TotalDays += NumberOfDaysInAMonth(i, Year);
+		}
+		TotalDays += Day;
+		return TotalDays;
+	}
+
+	short NumberOfDaysFromTheBeginingOfTheYear()
+	{
+		return NumberOfDaysFromTheBeginingOfTheYear(_Day, _Month, _Year);
 	}
 };
