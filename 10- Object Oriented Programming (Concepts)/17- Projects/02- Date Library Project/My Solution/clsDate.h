@@ -514,4 +514,18 @@ public:
 	{
 		return IncreaseDateByOneMonth(*this);
 	}
+
+	clsDate IncreaseDateByXDays(short Days, clsDate& Date)
+	{
+		for (short i = 1; i <= Days; i++)
+		{
+			Date = IncreaseDateByOneDay(Date);
+		}
+		return Date;
+	}
+
+	clsDate IncreaseDateByXDays(short Days)
+	{
+		return IncreaseDateByXDays(Days, *this);
+	}
 };
