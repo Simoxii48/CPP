@@ -206,4 +206,14 @@ int main()
     Date3.Print();
 
     cout << endl;
+
+    cout << "Date3 : ";
+    Date3.Print();
+
+    Date3.IncreaseDateByOneCentury();
+
+    cout << "Date3 after adding 1 century is : ";
+    Date3.Print();
+
+    cout << endl;
 }
