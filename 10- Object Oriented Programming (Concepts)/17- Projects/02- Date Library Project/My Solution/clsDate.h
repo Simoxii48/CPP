@@ -735,4 +735,18 @@ public:
 	{
 		return DecreaseDateByXDays(Days, *this);
 	}
+
+	static clsDate DecreaseDateByXMonths(short Months, clsDate& Date)
+	{
+		for (short i = 1; i <= Months; i++)
+		{
+			Date = DecreaseDateByOneMonth(Date);
+		}
+		return Date;
+	}
+
+	clsDate DecreaseDateByXMonths(short Months)
+	{
+		return DecreaseDateByXMonths(Months, *this);
+	}
 };
