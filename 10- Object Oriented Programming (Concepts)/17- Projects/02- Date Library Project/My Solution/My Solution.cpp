@@ -334,4 +334,14 @@ int main()
 
     cout << "Date3 after decrease " << xDecades << " decade(s) : ";
     Date3.Print();
+
+    cout << endl;
+
+    cout << "Date3 : ";
+    Date3.Print();
+
+    Date3.DecreaseDateByXDecadesFaster(xDecades);
+
+    cout << "Date3 after decrease " << xDecades << " decade(s) faster method : ";
+    Date3.Print();
 }
