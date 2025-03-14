@@ -302,4 +302,37 @@ public:
 	{
 		return NumberOfDaysFromTheBeginingOfTheYear(_Day, _Month, _Year);
 	}
+
+	clsDate DateAddDays(short Days, clsDate& Date)
+	{
+		short RemainingDays = Days +
+			NumberOfDaysFromTheBeginingOfTheYear(Date._Day, Date._Month, Date._Year);
+		short MonthDays = 0;
+		Date._Month = 1;
+		while (true)
+		{
+			MonthDays = NumberOfDaysInAMonth(Date._Month, Date._Year);
+			if (RemainingDays > MonthDays)
+			{
+				RemainingDays -= MonthDays;
+				Date._Month++;
+				if (Date._Month > 12)
+				{
+					Date._Month = 1;
+					Date._Year++;
+				}
+			}
+			else
+			{
+				Date._Day = RemainingDays;
+				break;
+			}
+		}
+		return Date;
+	}
+
+	clsDate DateAddDays(short Days)
+	{
+		return DateAddDays(Days, *this);
+	}
 };
