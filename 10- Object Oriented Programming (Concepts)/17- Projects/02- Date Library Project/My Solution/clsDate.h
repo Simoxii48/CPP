@@ -861,4 +861,16 @@ public:
 	{
 		return IsEndOfWeek(*this);
 	}
+
+	static bool IsWeekEnd(clsDate Date)
+	{
+		//Weekends are Fri and Sat
+		short DayIndex = DayOfWeekOrder(Date);
+		return (DayIndex == 5 || DayIndex == 6);
+	}
+
+	bool IsWeekEnd()
+	{
+		return IsWeekEnd(*this);
+	}
 };
