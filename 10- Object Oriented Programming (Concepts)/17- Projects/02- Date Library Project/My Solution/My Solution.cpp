@@ -438,4 +438,14 @@ int main()
 
     cout << endl;
 
+    cout << "Date1 : ";
+    Date1.Print();
+
+    cout << "Date2 : ";
+    Date2.Print();
+
+    if (Date2.IsDateAfterDate2(Date1))
+        cout << "\nYes, Date1 is After Date2.\n";
+    else
+        cout << "\nNo, Date1 is NOT After Date2.\n";
 }
