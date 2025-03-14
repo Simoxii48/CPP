@@ -604,4 +604,15 @@ public:
 	{
 		return IncreaseDateByXDecades(Decade, *this);
 	}
+
+	static clsDate IncreaseDateByXDecadesFaster(short Decade, clsDate& Date)
+	{
+		Date._Year += Decade * 10;
+		return Date;
+	}
+
+	clsDate IncreaseDateByXDecadesFaster(short Decade)
+	{
+		return IncreaseDateByXDecadesFaster(Decade, *this);
+	}
 };
