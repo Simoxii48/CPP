@@ -515,7 +515,7 @@ public:
 		return IncreaseDateByOneMonth(*this);
 	}
 
-	clsDate IncreaseDateByXDays(short Days, clsDate& Date)
+	static clsDate IncreaseDateByXDays(short Days, clsDate& Date)
 	{
 		for (short i = 1; i <= Days; i++)
 		{
@@ -527,5 +527,19 @@ public:
 	clsDate IncreaseDateByXDays(short Days)
 	{
 		return IncreaseDateByXDays(Days, *this);
+	}
+
+	static clsDate IncreaseDateByXMonths(short Months, clsDate& Date)
+	{
+		for (short i = 1; i <= Months; i++)
+		{
+			Date = IncreaseDateByOneMonth(Date);
+		}
+		return Date;
+	}
+
+	clsDate IncreaseDateByXMonths(short Months)
+	{
+		return IncreaseDateByXMonths(Months, *this);
 	}
 };
