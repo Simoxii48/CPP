@@ -129,4 +129,17 @@ int main()
 
     cout << "Date3 after adding " << xDays << " Day(s) is : ";
     Date3.Print();
+
+    cout << endl;
+
+    cout << "Date3 : ";
+    Date3.Print();
+
+    short xMonths = 4;
+    Date3.IncreaseDateByXMonths(xMonths);
+
+    cout << "Date3 after adding " << xMonths << " Month(s) is : ";
+    Date3.Print();
+
+    cout << endl;
 }
