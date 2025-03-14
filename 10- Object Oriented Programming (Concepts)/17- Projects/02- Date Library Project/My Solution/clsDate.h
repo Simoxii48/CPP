@@ -459,7 +459,7 @@ public:
 		return GetDifferenceInDays(*this, Date2, IncludeEndDay);
 	}
 
-	clsDate IncreaseDateByOneWeek(clsDate& Date)
+	static clsDate IncreaseDateByOneWeek(clsDate& Date)
 	{
 		for (int i = 1; i <= 7; i++)
 		{
@@ -471,5 +471,19 @@ public:
 	clsDate IncreaseDateByOneWeek()
 	{
 		return IncreaseDateByOneWeek(*this);
+	}
+
+	static clsDate IncreaseDateByXWeeks(short Weeks, clsDate& Date)
+	{
+		for (short i = 1; i <= Weeks; i++)
+		{
+			Date = IncreaseDateByOneWeek(Date);
+		}
+		return Date;
+	}
+
+	clsDate IncreaseDateByXWeeks(short Weeks)
+	{
+		return IncreaseDateByXWeeks(Weeks, *this);
 	}
 };
