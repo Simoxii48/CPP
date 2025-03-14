@@ -985,5 +985,14 @@ public:
 		return CalculateVacationReturnDate(*this, VacationDays);
 	}
 
+	static bool IsDateAfterDate2(clsDate Date1, clsDate Date2)
+	{
+		return (!IsDateBeforeDate2(Date1, Date2) &&
+			!IsDateEqualDate2(Date1, Date2));
+	}
 
+	bool IsDateAfterDate2(clsDate Date2)
+	{
+		return IsDateAfterDate2(*this, Date2);
+	}
 };
