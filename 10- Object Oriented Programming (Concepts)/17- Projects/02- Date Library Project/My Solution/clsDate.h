@@ -578,4 +578,16 @@ public:
 	{
 		return IncreaseDateByXYearsFaster(Years, *this);
 	}
+
+	static clsDate IncreaseDateByOneDecade(clsDate& Date)
+	{
+		//Period of 10 years
+		Date._Year += 10;
+		return Date;
+	}
+
+	clsDate IncreaseDateByOneDecade()
+	{
+		return IncreaseDateByOneDecade(*this);
+	}
 };
