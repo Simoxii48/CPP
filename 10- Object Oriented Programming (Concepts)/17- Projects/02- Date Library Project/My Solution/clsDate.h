@@ -774,4 +774,15 @@ public:
 	{
 		return DecreaseDateByXYears(Years, *this);
 	}
+
+	static clsDate DecreaseDateByXYearsFaster(short Years, clsDate& Date)
+	{
+		Date._Year -= Years;
+		return Date;
+	}
+
+	clsDate DecreaseDateByXYearsFaster(short Years)
+	{
+		return DecreaseDateByXYearsFaster(Years, *this);
+	}
 };
