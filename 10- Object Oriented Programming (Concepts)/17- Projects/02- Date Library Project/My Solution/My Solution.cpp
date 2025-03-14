@@ -34,4 +34,6 @@ int main()
     cout << "Day short name of Date1             : " << Date1.DayShortName() << endl;
     cout << "\nMonth Calendar Of Date1 : " << endl;
     Date1.PrintMonthCalendar();
+    cout << endl << "Year Calendar of Date1 : " << endl;
+    Date1.PrintYearCalendar();
 }
