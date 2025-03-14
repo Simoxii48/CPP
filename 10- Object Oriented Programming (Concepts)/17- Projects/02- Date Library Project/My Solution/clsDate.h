@@ -695,4 +695,30 @@ public:
 	{
 		return DecreaseDateByXWeeks(Weeks, *this);
 	}
+
+	static clsDate DecreaseDateByOneMonth(clsDate& Date)
+	{
+		if (Date._Month == 1)
+		{
+			Date._Month = 12;
+			Date._Year--;
+		}
+		else
+			Date._Month--;
+		//last check day in date should not exceed max days in the current month
+			// example if date is 31/3/2022 decreasing one month should not be 31 / 2 / 2022, it should
+			// be 28/2/2022
+		short NumberOfDaysInCurrentMonth =
+			NumberOfDaysInAMonth(Date._Month, Date._Year);
+		if (Date._Day > NumberOfDaysInCurrentMonth)
+		{
+			Date._Day = NumberOfDaysInCurrentMonth;
+		}
+		return Date;
+	}
+
+	clsDate DecreaseDateByOneMonth()
+	{
+		return DecreaseDateByOneMonth(*this);
+	}
 };
