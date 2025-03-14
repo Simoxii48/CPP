@@ -785,4 +785,16 @@ public:
 	{
 		return DecreaseDateByXYearsFaster(Years, *this);
 	}
+
+	static clsDate DecreaseDateByOneDecade(clsDate& Date)
+	{
+		//Period of 10 years
+		Date._Year -= 10;
+		return Date;
+	}
+
+	clsDate DecreaseDateByOneDecade()
+	{
+		return DecreaseDateByOneDecade(*this);
+	}
 };
