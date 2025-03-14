@@ -43,12 +43,23 @@ int main()
     cout << endl;
 
     short xDays = 15;
-    cout << "Date1 after adding " << xDays << " day(s) :" << endl;
     Date1.DateAddDays(xDays);
-    cout << "Date1 : ";
+    cout << "Date1 after adding " << xDays << " day(s) : ";
     Date1.Print();
 
+    cout << endl;
+    
     cout << "Date1 : ";
+    Date1.Print();
+    cout << "Date2 : ";
     Date2.Print();
-    cout << "Is Date 1 before Date 2 : " << Date1.IsDateBeforeDate2(Date2) << endl;
+    
+    cout << "Is Date 1 before Date 2 : " << Date1.IsDateBeforeDate2(Date2) << endl << endl;
+
+    cout << "Date1 : ";
+    Date1.Print();
+    cout << "Date2 : ";
+    Date2.Print();
+    
+    cout << "Is Date 1 before Date 2 : " << Date1.IsDateEqualDate2(Date2) << endl;
 }
