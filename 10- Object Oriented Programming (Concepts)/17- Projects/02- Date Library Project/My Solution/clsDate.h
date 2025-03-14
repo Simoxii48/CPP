@@ -359,4 +359,25 @@ public:
 	{
 		return IsDateEqualDate2(*this, Date2);
 	}
+
+	static bool IsLastDayInMonth(clsDate Date)
+	{
+		return (Date._Day == NumberOfDaysInAMonth(Date._Month,
+			Date._Year));
+	}
+
+	bool IsLastDayInMonth()
+	{
+		return IsLastDayInMonth(*this);
+	}
+
+	static bool IsLastMonthInYear(short Month)
+	{
+		return (Month == 12);
+	}
+
+	bool IsLastMonthInYear()
+	{
+		return IsLastMonthInYear(_Month);
+	}
 };
