@@ -749,4 +749,15 @@ public:
 	{
 		return DecreaseDateByXMonths(Months, *this);
 	}
+
+	static clsDate DecreaseDateByOneYear(clsDate& Date)
+	{
+		Date._Year--;
+		return Date;
+	}
+
+	clsDate DecreaseDateByOneYear()
+	{
+		return DecreaseDateByOneYear(*this);
+	}
 };
