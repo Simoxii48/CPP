@@ -914,4 +914,20 @@ public:
 	{
 		return DaysUntilTheEndOfMonth(*this);
 	}
+
+	static short DaysUntilTheEndOfYear(clsDate Date1)
+	{
+		clsDate EndOfYearDate;
+		
+		EndOfYearDate._Day = 31;
+		EndOfYearDate._Month = 12;
+		EndOfYearDate._Year = Date1._Year;
+		
+		return GetDifferenceInDays(Date1, EndOfYearDate, true);
+	}
+
+	short DaysUntilTheEndOfYear()
+	{
+		return DaysUntilTheEndOfYear(*this);
+	}
 };
