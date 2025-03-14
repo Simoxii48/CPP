@@ -615,4 +615,16 @@ public:
 	{
 		return IncreaseDateByXDecadesFaster(Decade, *this);
 	}
+
+	static clsDate IncreaseDateByOneCentury(clsDate& Date)
+	{
+		//Period of 100 years
+		Date._Year += 100;
+		return Date;
+	}
+
+	clsDate IncreaseDateByOneCentury()
+	{
+		return IncreaseDateByOneCentury(*this);
+	}
 };
