@@ -303,7 +303,7 @@ public:
 		return NumberOfDaysFromTheBeginingOfTheYear(_Day, _Month, _Year);
 	}
 
-	clsDate DateAddDays(short Days, clsDate& Date)
+	static clsDate DateAddDays(short Days, clsDate& Date)
 	{
 		short RemainingDays = Days +
 			NumberOfDaysFromTheBeginingOfTheYear(Date._Day, Date._Month, Date._Year);
@@ -334,5 +334,17 @@ public:
 	clsDate DateAddDays(short Days)
 	{
 		return DateAddDays(Days, *this);
+	}
+
+	static bool IsDateBeforeDate2(clsDate Date1, clsDate Date2)
+	{
+		return (Date1._Year < Date2._Year) ? true : ((Date1._Year ==
+			Date2._Year) ? (Date1._Month < Date2._Month ? true : (Date1._Month ==
+				Date2._Month ? Date1._Day < Date2._Day : false)) : false);
+	}
+
+	bool IsDateBeforeDate2(clsDate Date2)
+	{
+		return IsDateBeforeDate2(*this, Date2);
 	}
 };
