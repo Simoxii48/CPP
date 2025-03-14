@@ -403,5 +403,23 @@ int main()
     cout << endl;
 
     cout << "Days until end of year : "
-        << Date1.DaysUntilTheEndOfYear() << " Day(s).";
+        << Date1.DaysUntilTheEndOfYear() << " Day(s).\n";
+
+    cout << endl;
+
+    cout << "\nVacation Starts: ";
+    Date1.Print();
+
+    cout << "\nVacation Ends: ";
+    Date4.Print();
+
+    cout << "\nVaction From: " <<
+        Date1.DayShortName() << " , ";
+    Date1.Print();
+
+    cout << "Vaction To: " << Date4.DayShortName() << " , ";
+    Date4.Print();
+
+    cout << "\n\nActucal Vacation Days is: " <<
+        Date1.CalculateVacationDays(Date4);
 }
