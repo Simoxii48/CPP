@@ -97,4 +97,15 @@ int main()
     
     cout << "Date3 after adding 1 week is : ";
     Date3.Print();
+
+    cout << endl;
+
+    cout << "Date3 : ";
+    Date3.Print();
+
+    short xWeeks = 4;
+    Date3.IncreaseDateByXWeeks(xWeeks);
+
+    cout << "Date3 after adding " << xWeeks << " week(s) is : ";
+    Date3.Print();
 }
