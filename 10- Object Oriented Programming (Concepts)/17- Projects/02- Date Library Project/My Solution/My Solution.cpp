@@ -244,4 +244,14 @@ int main()
 
     cout << "Date3 after decrease 1 week : ";
     Date3.Print();
+
+    cout << endl;
+
+    cout << "Date3 : ";
+    Date3.Print();
+
+    Date3.DecreaseDateByXWeeks(xWeeks);
+
+    cout << "Date3 after decrease " << xWeeks << " week(s) : ";
+    Date3.Print();
 }
