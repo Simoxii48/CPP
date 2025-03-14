@@ -797,4 +797,18 @@ public:
 	{
 		return DecreaseDateByOneDecade(*this);
 	}
+
+	static clsDate DecreaseDateByXDecades(short Decade, clsDate& Date)
+	{
+		for (short i = 1; i <= Decade * 10; i++)
+		{
+			Date = DecreaseDateByOneYear(Date);
+		}
+		return Date;
+	}
+
+	clsDate DecreaseDateByXDecades(short Decade)
+	{
+		return DecreaseDateByXDecades(Decade, *this);
+	}
 };
