@@ -760,4 +760,18 @@ public:
 	{
 		return DecreaseDateByOneYear(*this);
 	}
+
+	static clsDate DecreaseDateByXYears(short Years, clsDate& Date)
+	{
+		for (short i = 1; i <= Years; i++)
+		{
+			Date = DecreaseDateByOneYear(Date);
+		}
+		return Date;
+	}
+
+	clsDate DecreaseDateByXYears(short Years)
+	{
+		return DecreaseDateByXYears(Years, *this);
+	}
 };
