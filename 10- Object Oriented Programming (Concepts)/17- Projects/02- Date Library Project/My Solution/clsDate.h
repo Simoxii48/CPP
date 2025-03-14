@@ -930,4 +930,21 @@ public:
 	{
 		return DaysUntilTheEndOfYear(*this);
 	}
+
+	static short CalculateVacationDays(clsDate DateFrom, clsDate DateTo)
+	{
+		short DaysCount = 0;
+		while (IsDateBeforeDate2(DateFrom, DateTo))
+		{
+			if (IsBusinessDay(DateFrom))
+				DaysCount++;
+			DateFrom = IncreaseDateByOneDay(DateFrom);
+		}
+		return DaysCount;
+	}
+
+	short CalculateVacationDays(clsDate DateTo)
+	{
+		return CalculateVacationDays(*this, DateTo);
+	}
 };
