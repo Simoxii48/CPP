@@ -142,4 +142,14 @@ int main()
     Date3.Print();
 
     cout << endl;
+
+    cout << "Date3 : ";
+    Date3.Print();
+
+    Date3.IncreaseDateByOneYear();
+
+    cout << "Date3 after adding 1 year is : ";
+    Date3.Print();
+
+    cout << endl;
 }
