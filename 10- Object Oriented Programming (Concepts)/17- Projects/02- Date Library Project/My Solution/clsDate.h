@@ -888,4 +888,14 @@ public:
 	{
 		return IsBusinessDay(*this);
 	}
+
+	static short DaysUntilTheEndOfWeek(clsDate Date)
+	{
+		return 6 - DayOfWeekOrder(Date);
+	}
+
+	short DaysUntilTheEndOfWeek()
+	{
+		return DaysUntilTheEndOfWeek(*this);
+	}
 };
