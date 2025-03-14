@@ -390,4 +390,12 @@ int main()
     else
         cout << "No it is NOT a business day.\n";
 
+    cout << endl;
+
+    cout << "Days until end of week : "
+        << Date3.DaysUntilTheEndOfWeek() << " Day(s).\n";
+
+    cout << endl;
+
+
 }
