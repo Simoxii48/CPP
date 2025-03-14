@@ -667,4 +667,18 @@ public:
 	{
 		return DecreaseDateByOneDay(*this);
 	}
+
+	static clsDate DecreaseDateByOneWeek(clsDate& Date)
+	{
+		for (int i = 1; i <= 7; i++)
+		{
+			Date = DecreaseDateByOneDay(Date);
+		}
+		return Date;
+	}
+
+	clsDate DecreaseDateByOneWeek()
+	{
+		return DecreaseDateByOneWeek(*this);
+	}
 };
