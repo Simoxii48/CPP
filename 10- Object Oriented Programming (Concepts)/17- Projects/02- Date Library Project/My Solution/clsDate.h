@@ -639,4 +639,32 @@ public:
 	{
 		return IncreaseDateByOneMillennium(*this);
 	}
+
+	static clsDate DecreaseDateByOneDay(clsDate& Date)
+	{
+		if (Date._Day == 1)
+		{
+			if (Date._Month == 1)
+			{
+				Date._Month = 12;
+				Date._Day = 31;
+				Date._Year--;
+			}
+			else
+			{
+				Date._Month--;
+				Date._Day = NumberOfDaysInAMonth(Date._Month, Date._Year);
+			}
+		}
+		else
+		{
+			Date._Day--;
+		}
+		return Date;
+	}
+
+	clsDate DecreaseDateByOneDay()
+	{
+		return DecreaseDateByOneDay(*this);
+	}
 };
