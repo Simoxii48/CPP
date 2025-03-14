@@ -88,4 +88,13 @@ int main()
     cout << "Difference in days between Date2 and Date1 is : " <<
         Date2.GetDifferenceInDays(Date1) << " Day(s)" << endl;
 
+    cout << endl;
+
+    cout << "Date3 : ";
+    Date3.Print();
+
+    Date3.IncreaseDateByOneWeek();
+    
+    cout << "Date3 after adding 1 week is : ";
+    Date3.Print();
 }
