@@ -152,4 +152,16 @@ int main()
     Date3.Print();
 
     cout << endl;
+
+    cout << "Date3 : ";
+    Date3.Print();
+
+    short xYears = 4;
+    Date3.IncreaseDateByXYears(xYears);
+
+    cout << "Date3 after adding " << xYears << " Year(s) is : ";
+    Date3.Print();
+
+    cout << endl;
+
 }
