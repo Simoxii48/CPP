@@ -846,4 +846,19 @@ public:
 	{
 		return DecreaseDateByOneMillennium(*this);
 	}
+
+	static short DayOfWeekOrder(clsDate Date)
+	{
+		return DayOfWeekOrder(Date._Day, Date._Month, Date._Year);
+	}
+
+	static short IsEndOfWeek(clsDate Date)
+	{
+		return DayOfWeekOrder(Date) == 6;
+	}
+
+	short IsEndOfWeek()
+	{
+		return IsEndOfWeek(*this);
+	}
 };
