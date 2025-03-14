@@ -118,4 +118,15 @@ int main()
 
     cout << "Date3 after adding 1 month is : ";
     Date3.Print();
+
+    cout << endl;
+
+    cout << "Date3 : ";
+    Date3.Print();
+
+    xDays = 10;
+    Date3.IncreaseDateByXDays(xDays);
+
+    cout << "Date3 after adding " << xDays << " Day(s) is : ";
+    Date3.Print();
 }
