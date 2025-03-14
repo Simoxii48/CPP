@@ -542,4 +542,15 @@ public:
 	{
 		return IncreaseDateByXMonths(Months, *this);
 	}
+
+	static clsDate IncreaseDateByOneYear(clsDate& Date)
+	{
+		Date._Year++;
+		return Date;
+	}
+
+	clsDate IncreaseDateByOneYear()
+	{
+		return IncreaseDateByOneYear(*this);
+	}
 };
