@@ -172,4 +172,14 @@ int main()
 
     cout << "Date3 after adding " << xYears << " Year(s) faster method is : ";
     Date3.Print();
+
+    cout << endl;
+
+    cout << "Date3 : ";
+    Date3.Print();
+
+    Date3.IncreaseDateByOneDecade();
+
+    cout << "Date3 after adding 1 decade is : ";
+    Date3.Print();
 }
