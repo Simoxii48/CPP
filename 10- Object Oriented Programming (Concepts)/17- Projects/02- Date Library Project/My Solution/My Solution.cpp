@@ -69,4 +69,13 @@ int main()
     Date2.Print();
     cout << "Is last day in month  : " << Date2.IsLastDayInMonth() << endl;
     cout << "Is last month in year : " << Date2.IsLastMonthInYear() << endl;
+
+    cout << endl;
+
+    cout << "Date2 : ";
+    Date2.Print();
+    Date2.IncreaseDateByOneDay();
+    cout << "Date2 after adding 1 Day : ";
+    Date2.Print();
+
 }
