@@ -47,4 +47,8 @@ int main()
     Date1.DateAddDays(xDays);
     cout << "Date1 : ";
     Date1.Print();
+
+    cout << "Date1 : ";
+    Date2.Print();
+    cout << "Is Date 1 before Date 2 : " << Date1.IsDateBeforeDate2(Date2) << endl;
 }
