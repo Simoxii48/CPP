@@ -822,4 +822,16 @@ public:
 	{
 		return DecreaseDateByXDecadesFaster(Decade, *this);
 	}
+
+	static clsDate DecreaseDateByOneCentury(clsDate& Date)
+	{
+		//Period of 100 years
+		Date._Year -= 100;
+		return Date;
+	}
+
+	clsDate DecreaseDateByOneCentury()
+	{
+		return DecreaseDateByOneCentury(*this);
+	}
 };
