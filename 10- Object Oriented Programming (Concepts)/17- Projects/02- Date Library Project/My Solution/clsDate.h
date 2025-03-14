@@ -409,20 +409,55 @@ public:
 		return IncreaseDateByOneDay(*this);
 	}
 
+	static void SwapDates(clsDate& Date1, clsDate& Date2)
+	{
+		clsDate TempDate;
+
+		TempDate._Year = Date1._Year;
+		TempDate._Month = Date1._Month;
+		TempDate._Day = Date1._Day;
+
+		Date1._Year = Date2._Year;
+		Date1._Month = Date2._Month;
+		Date1._Day = Date2._Day;
+
+		Date2._Year = TempDate._Year;
+		Date2._Month = TempDate._Month;
+		Date2._Day = TempDate._Day;
+	}
+
+	void SwapDates(clsDate& Date2)
+	{
+		SwapDates(*this, Date2);
+	}
+
 	static int GetDifferenceInDays(clsDate Date1, clsDate Date2, bool
 		IncludeEndDay = false)
 	{
 		int Days = 0;
+		short SawpFlagValue = 1;
+
+		if (!IsDateBeforeDate2(Date1, Date2))
+		{
+			//Swap Dates
+			SwapDates(Date1, Date2);
+			SawpFlagValue = -1;
+		}
+
 		while (IsDateBeforeDate2(Date1, Date2))
 		{
 			Days++;
 			Date1 = IncreaseDateByOneDay(Date1);
 		}
-		return IncludeEndDay ? ++Days : Days;
+
+		return IncludeEndDay ? ++Days * SawpFlagValue : Days *
+			SawpFlagValue;
 	}
 
 	int GetDifferenceInDays(clsDate Date2, bool IncludeEndDay = false)
 	{
 		return GetDifferenceInDays(*this, Date2, IncludeEndDay);
 	}
+
+
 };
