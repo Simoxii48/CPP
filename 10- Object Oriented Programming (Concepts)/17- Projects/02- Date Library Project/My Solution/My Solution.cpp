@@ -80,6 +80,12 @@ int main()
 
     cout << endl;
 
-    cout << "Difference in days between Date2 and Date 1 is : " <<
+    cout << "Difference in days between Date1 and Date2 is : " <<
         Date1.GetDifferenceInDays(Date2) << " Day(s)" << endl;
+
+    cout << endl;
+
+    cout << "Difference in days between Date2 and Date1 is : " <<
+        Date2.GetDifferenceInDays(Date1) << " Day(s)" << endl;
+
 }
