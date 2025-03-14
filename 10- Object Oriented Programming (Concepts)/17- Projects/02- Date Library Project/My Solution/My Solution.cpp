@@ -397,5 +397,9 @@ int main()
 
     cout << endl;
 
+    cout << "Days until end of month : "
+        << Date3.DaysUntilTheEndOfMonth() << " Day(s).\n";
+
+    cout << endl;
 
 }
