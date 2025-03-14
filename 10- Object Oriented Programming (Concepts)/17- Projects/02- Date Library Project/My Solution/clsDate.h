@@ -898,4 +898,20 @@ public:
 	{
 		return DaysUntilTheEndOfWeek(*this);
 	}
+
+	static short DaysUntilTheEndOfMonth(clsDate Date1)
+	{
+		clsDate EndOfMontDate;
+		
+		EndOfMontDate._Day = NumberOfDaysInAMonth(Date1._Month, Date1._Year);
+		EndOfMontDate._Month = Date1._Month;
+		EndOfMontDate._Year = Date1._Year;
+		
+		return GetDifferenceInDays(Date1, EndOfMontDate, true);
+	}
+
+	short DaysUntilTheEndOfMonth()
+	{
+		return DaysUntilTheEndOfMonth(*this);
+	}
 };
