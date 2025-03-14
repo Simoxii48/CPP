@@ -191,6 +191,17 @@ int main()
     short xDecades = 2;
     Date3.IncreaseDateByXDecades(xDecades);
 
+    cout << "Date3 after adding " << xDecades << " Decade(s) method is : ";
+    Date3.Print();
+
+    cout << endl;
+
+    cout << "Date3 : ";
+    Date3.Print();
+
+    xDecades = 4;
+    Date3.IncreaseDateByXDecadesFaster(xDecades);
+
     cout << "Date3 after adding " << xDecades << " Decade(s) faster method is : ";
     Date3.Print();
 
