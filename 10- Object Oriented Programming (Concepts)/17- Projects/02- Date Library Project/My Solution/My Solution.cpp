@@ -420,6 +420,22 @@ int main()
     cout << "Vaction To: " << Date4.DayShortName() << " , ";
     Date4.Print();
 
-    cout << "\n\nActucal Vacation Days is: " <<
-        Date1.CalculateVacationDays(Date4);
+    cout << "\nActucal Vacation Days is: " <<
+        Date1.CalculateVacationDays(Date4) << endl;
+
+    cout << endl;
+
+    clsDate ReturnDate;
+
+    cout << "\nVacation Starts: ";
+    ReturnDate.Print();
+
+    short VacationDays = 29;
+    ReturnDate.CalculateVacationReturnDate(VacationDays);
+    
+    cout << "\nReturn Date: " << ReturnDate.DayShortName() << " , ";
+    ReturnDate.Print();
+
+    cout << endl;
+
 }
