@@ -347,4 +347,16 @@ public:
 	{
 		return IsDateBeforeDate2(*this, Date2);
 	}
+
+	static bool IsDateEqualDate2(clsDate Date1, clsDate Date2)
+	{
+		return (Date1._Year == Date2._Year) ? ((Date1._Month ==
+			Date2._Month) ? ((Date1._Day == Date2._Day) ? true : false)
+			: false) : false;
+	}
+
+	bool IsDateEqualDate2(clsDate Date2)
+	{
+		return IsDateEqualDate2(*this, Date2);
+	}
 };
