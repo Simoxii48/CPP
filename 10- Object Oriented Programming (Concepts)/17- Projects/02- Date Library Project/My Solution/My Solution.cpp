@@ -402,4 +402,6 @@ int main()
 
     cout << endl;
 
+    cout << "Days until end of year : "
+        << Date1.DaysUntilTheEndOfYear() << " Day(s).";
 }
