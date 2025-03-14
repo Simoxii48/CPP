@@ -364,4 +364,12 @@ int main()
 
     cout << "Date3 after decrease 1 millennium : ";
     Date3.Print();
+
+    cout << endl;
+
+    cout << "Is it End of Week? : " << Date1.DayShortName();
+    if (Date3.IsEndOfWeek())
+        cout << "\nYes it is Saturday, it's of Week.\n";
+    else
+        cout << "\nNo it's Not end of week.\n";
 }
