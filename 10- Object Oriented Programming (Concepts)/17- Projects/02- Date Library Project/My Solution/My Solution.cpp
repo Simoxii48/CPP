@@ -36,4 +36,7 @@ int main()
     Date1.PrintMonthCalendar();
     cout << endl << "Year Calendar of Date1 : " << endl;
     Date1.PrintYearCalendar();
+
+    cout << endl << "Number of days from the beginning of the year in Date1 is : " << Date1.NumberOfDaysFromTheBeginingOfTheYear() << endl;
+    cout << endl << "Number of days from the beginning of the year in Date2 is : " << Date2.NumberOfDaysFromTheBeginingOfTheYear() << endl;
 }
