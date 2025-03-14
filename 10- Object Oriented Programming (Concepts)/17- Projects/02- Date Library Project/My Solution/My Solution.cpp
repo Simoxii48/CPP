@@ -62,4 +62,11 @@ int main()
     Date2.Print();
     
     cout << "Is Date 1 before Date 2 : " << Date1.IsDateEqualDate2(Date2) << endl;
+
+    cout << endl;
+
+    cout << "Date2 : ";
+    Date2.Print();
+    cout << "Is last day in month  : " << Date2.IsLastDayInMonth() << endl;
+    cout << "Is last month in year : " << Date2.IsLastMonthInYear() << endl;
 }
