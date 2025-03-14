@@ -553,4 +553,18 @@ public:
 	{
 		return IncreaseDateByOneYear(*this);
 	}
+
+	static clsDate IncreaseDateByXYears(short Years, clsDate& Date)
+	{
+		for (short i = 1; i <= Years; i++)
+		{
+			Date = IncreaseDateByOneYear(Date);
+		}
+		return Date;
+	}
+
+	clsDate IncreaseDateByXYears(short Years)
+	{
+		return IncreaseDateByXYears(Years, *this);
+	}
 };
