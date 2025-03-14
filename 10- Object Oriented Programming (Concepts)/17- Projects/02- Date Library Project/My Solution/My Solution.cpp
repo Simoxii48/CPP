@@ -354,4 +354,14 @@ int main()
 
     cout << "Date3 after decrease 1 century : ";
     Date3.Print();
+
+    cout << endl;
+
+    cout << "Date3 : ";
+    Date3.Print();
+
+    Date3.DecreaseDateByOneMillennium();
+
+    cout << "Date3 after decrease 1 millennium : ";
+    Date3.Print();
 }
