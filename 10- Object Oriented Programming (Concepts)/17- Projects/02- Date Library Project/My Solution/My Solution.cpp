@@ -274,4 +274,14 @@ int main()
 
     cout << "Date3 after decrease " << xDays << " days(s) : ";
     Date3.Print();
+
+    cout << endl;
+
+    cout << "Date3 : ";
+    Date3.Print();
+
+    Date3.DecreaseDateByXMonths(xMonths);
+
+    cout << "Date3 after decrease " << xMonths << " month(s) : ";
+    Date3.Print();
 }
