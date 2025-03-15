@@ -21,7 +21,8 @@ public:
 
     enum enCharType { SmallLetter = 1, capitalLetter = 2, Digit = 3, MixChars = 4 };
 
-    static char getRandomCharacter(enCharType charType) {
+    static char getRandomCharacter(enCharType charType) 
+    {
         switch (charType)
         {
         case SmallLetter:
@@ -37,15 +38,18 @@ public:
         }
     }
 
-    static string generateWord(enCharType charType, short length) {
+    static string generateWord(enCharType charType, short length) 
+    {
         string word = "";
-        for (int i = 1; i <= length; i++) {
+        for (int i = 1; i <= length; i++) 
+        {
             word += getRandomCharacter(charType);
         }
         return word;
     }
 
-    static string generateKey(enCharType charType) {
+    static string generateKey(enCharType charType) 
+    {
         string key = "";
 
         key = generateWord(charType, 4) + "-";
@@ -56,8 +60,10 @@ public:
         return key;
     }
 
-    static void generateKeys(short numberOfKeys,enCharType charType) {
-        for (int i = 1; i <= numberOfKeys; i++) {
+    static void generateKeys(short numberOfKeys,enCharType charType) 
+    {
+        for (int i = 1; i <= numberOfKeys; i++) 
+        {
             cout << "Key [" << i << "] : ";
             cout << generateKey(charType) << endl;
         }
@@ -106,6 +112,13 @@ public:
     {
         for (int i = 0; i < length; i++) {
             swap(arr[randomNumber(1, length) - 1], arr[randomNumber(1, length) - 1]);
+        }
+    }
+
+    static void fillArrayWithRandomNumbers(int arr[100], int arrLength, int from, int to) 
+    {
+        for (int i = 0; i < arrLength; i++) {
+            arr[i] = randomNumber(from, to);
         }
     }
 };
