@@ -9,4 +9,9 @@ int main()
     cout << clsInputValidate::isNumberBetween(5.5, 1.3, 10.8) << endl;
     cout << clsInputValidate::isDateBetween(clsDate(), clsDate(10, 3, 2025), clsDate(20, 3, 2025)) << endl;
     cout << clsInputValidate::isDateBetween(clsDate(), clsDate(20, 3, 2025), clsDate(10, 3, 2025)) << endl;
+
+    cout << "\nPlease enter a number : ";
+    int x = clsInputValidate::readIntNumber("Invalid number, Enter again : ");
+    cout << "x = " << x << endl;
+
 }
