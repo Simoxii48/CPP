@@ -67,5 +67,15 @@ int main()
         cout << arr2[i] << endl;
     }
 
+    cout << endl;
+
+    int arr3[5];
+    clsUtil::fillArrayWithRandomNumbers(arr3, 5, 20, 50);
+    cout << "\nArray after fill : \n";
+    for (short i = 0;i < 5;i++)
+    {
+        cout << arr3[i] << endl;
+    }
+
     return 0;
 }
