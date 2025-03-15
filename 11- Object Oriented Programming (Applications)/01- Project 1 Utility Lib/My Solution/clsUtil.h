@@ -129,4 +129,12 @@ public:
             arr[i] = generateWord(charType,wordLength);
         }
     }
+
+    static void fillArrayWithRandomKeys(string arr[100], int arrLength, enCharType charType)
+    {
+        for (int i = 0; i < arrLength; i++)
+        {
+            arr[i] = generateKey(charType);
+        }
+    }
 };
