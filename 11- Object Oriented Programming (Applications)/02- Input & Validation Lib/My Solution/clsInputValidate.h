@@ -17,7 +17,12 @@ public:
 
 	static bool isDateBetween(clsDate Date, clsDate DateFrom, clsDate DateTo)
 	{
-		return (Date.IsDateAfterDate2(DateFrom) && Date.IsDateBeforeDate2(DateTo));
+		return 
+			(Date.IsDateAfterDate2(DateFrom) && Date.IsDateBeforeDate2(DateTo))
+			||
+			(Date.IsDateBeforeDate2(DateFrom) && Date.IsDateAfterDate2(DateTo));
 	}
+
+	
 };
 
