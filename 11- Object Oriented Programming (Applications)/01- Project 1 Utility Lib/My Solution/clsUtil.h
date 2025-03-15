@@ -3,6 +3,7 @@
 #include <iostream>
 #include <string>
 #include <cstdlib>
+#include "clsDate.h"
 using namespace std;
 
 class clsUtil
@@ -84,5 +85,13 @@ public:
         temp = s1;
         s1 = s2;
         s2 = temp;
+    }
+
+    static void Swap(clsDate& Date1, clsDate& Date2)
+    {
+        clsDate TempDate;
+        TempDate = Date1;
+        Date1 = Date2;
+        Date2 = TempDate;
     }
 };
