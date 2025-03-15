@@ -8,5 +8,10 @@ public:
 	{
 		return (number >= from && number <= to);
 	}
+
+	static bool isNumberBetween(double number, double from, double to)
+	{
+		return (number >= from && number <= to);
+	}
 };
 
