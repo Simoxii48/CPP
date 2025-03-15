@@ -37,6 +37,16 @@ int main()
     clsUtil::Swap(s1, s2);
     cout << s1 << " " << s2 << endl;
 
+    cout << endl;
+
+    // Swap Date
+    clsDate d1(1, 10, 2022), d2(10, 10, 2022);
+    cout << d1.DateToString() << " " << d2.DateToString() << endl;
+    clsUtil::Swap(d1, d2);
+    cout << d1.DateToString() << " " << d2.DateToString() << endl;
+
+    cout << endl;
+
 
     return 0;
 }
