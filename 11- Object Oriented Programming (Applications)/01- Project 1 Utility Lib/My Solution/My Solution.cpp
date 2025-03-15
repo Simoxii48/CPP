@@ -77,5 +77,16 @@ int main()
         cout << arr3[i] << endl;
     }
 
+    cout << endl;
+
+    string arr4[5];
+    clsUtil::fillArrayWithRandomWords(arr4, 5, clsUtil::MixChars, 8);
+    cout << "\nArray after fill : \n";
+    for (short i = 0;i < 5;i++)
+    {
+        cout << arr4[i] << endl;
+    }
+
+
     return 0;
 }
