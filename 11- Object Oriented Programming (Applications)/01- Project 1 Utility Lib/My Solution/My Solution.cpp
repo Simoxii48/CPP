@@ -47,6 +47,16 @@ int main()
 
     cout << endl;
 
+    // Shuffle array
+
+    // int array
+    int arr[5] = { 1,2,3,4,5 };
+    clsUtil::shuffleArray(arr, 5);
+    cout << "Array after shuffle : \n";
+    for (short i = 0;i < 5;i++)
+    {
+        cout << arr[i] << endl;
+    }
 
     return 0;
 }
