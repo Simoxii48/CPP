@@ -77,4 +77,12 @@ public:
         a = b;
         b = temp;
     }
+
+    static void Swap(string& s1, string& s2)
+    {
+        string temp;
+        temp = s1;
+        s1 = s2;
+        s2 = temp;
+    }
 };
