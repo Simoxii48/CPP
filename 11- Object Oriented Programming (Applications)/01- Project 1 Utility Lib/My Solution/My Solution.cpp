@@ -15,6 +15,11 @@ int main()
 
     cout << endl;
 
+    // Swap int
+    int x = 10, y = 20;
+    cout << x << " " << y << endl;
+    clsUtil::Swap(x, y);
+    cout << x << " " << y << endl;
 
     return 0;
 }
