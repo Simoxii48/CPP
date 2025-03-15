@@ -121,4 +121,12 @@ public:
             arr[i] = randomNumber(from, to);
         }
     }
+
+    static void fillArrayWithRandomWords(string arr[100], int arrLength, enCharType charType,int wordLength)
+    {
+        for (int i = 0; i < arrLength; i++) 
+        {
+            arr[i] = generateWord(charType,wordLength);
+        }
+    }
 };
