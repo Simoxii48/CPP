@@ -9,8 +9,6 @@ int main()
 
     cout << clsUtil::randomNumber(1, 10) << endl;
     cout << clsUtil::getRandomCharacter(clsUtil::MixChars) << endl;
-    cout << clsUtil::getRandomCharacter(clsUtil::MixChars) << endl;
-    cout << clsUtil::getRandomCharacter(clsUtil::MixChars) << endl;
-    cout << clsUtil::getRandomCharacter(clsUtil::MixChars) << endl;
 
+    return 0;
 }
