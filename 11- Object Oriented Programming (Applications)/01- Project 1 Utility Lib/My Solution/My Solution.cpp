@@ -101,5 +101,16 @@ int main()
 
     cout << "\nText 1 " << clsUtil::Tabs(8) << "Text2" << endl;
 
+    const short encryptionKey = 2;
+    string textAfterEncryption, textAfterDycryption;
+    string text = "Mohammed Abu-Hadhoud";
+
+    textAfterEncryption = clsUtil::encryptText(text, encryptionKey);
+    textAfterDycryption = clsUtil::decryptText(textAfterEncryption, encryptionKey);
+
+    cout << "\nText before encryption   : " << text << endl;
+    cout << "Text after encryption    : " << textAfterEncryption << endl;
+    cout << "Text after decryption    : " << textAfterDycryption << endl;
+
     return 0;
 }
