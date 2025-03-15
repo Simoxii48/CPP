@@ -87,6 +87,14 @@ int main()
         cout << arr4[i] << endl;
     }
 
+    cout << endl;
 
+    string arr5[5];
+    clsUtil::fillArrayWithRandomKeys(arr5, 5, clsUtil::MixChars);
+    cout << "\nArray after fill : \n";
+    for (short i = 0;i < 5;i++)
+    {
+        cout << arr5[i] << endl;
+    }
     return 0;
 }
