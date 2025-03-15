@@ -29,5 +29,14 @@ int main()
     clsUtil::Swap(a, b);
     cout << a << " " << b << endl;
 
+    cout << endl;
+
+    // Swap string
+    string s1 = "Mohammed", s2 = "Abderrahime";
+    cout << s1 << " " << s2 << endl;
+    clsUtil::Swap(s1, s2);
+    cout << s1 << " " << s2 << endl;
+
+
     return 0;
 }
