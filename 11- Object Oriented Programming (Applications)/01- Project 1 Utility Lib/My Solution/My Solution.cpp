@@ -96,5 +96,10 @@ int main()
     {
         cout << arr5[i] << endl;
     }
+
+    cout << endl;
+
+    cout << "\nText 1 " << clsUtil::Tabs(8) << "Text2" << endl;
+
     return 0;
 }
