@@ -21,5 +21,13 @@ int main()
     clsUtil::Swap(x, y);
     cout << x << " " << y << endl;
 
+    cout << endl;
+
+    // Swap double
+    double a = 15.5, b = 25.5;
+    cout << a << " " << b << endl;
+    clsUtil::Swap(a, b);
+    cout << a << " " << b << endl;
+
     return 0;
 }
