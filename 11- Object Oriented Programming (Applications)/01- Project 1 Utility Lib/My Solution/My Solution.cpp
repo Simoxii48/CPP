@@ -58,5 +58,14 @@ int main()
         cout << arr[i] << endl;
     }
 
+    // string array
+    string arr2[5] = { "momo","abdo","khaled","mami","elissa" };
+    clsUtil::shuffleArray(arr2, 5);
+    cout << "\nArray after shuffle : \n";
+    for (short i = 0;i < 5;i++)
+    {
+        cout << arr2[i] << endl;
+    }
+
     return 0;
 }
