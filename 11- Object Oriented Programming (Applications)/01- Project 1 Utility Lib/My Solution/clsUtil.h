@@ -69,4 +69,12 @@ public:
         a = b;
         b = temp;
     }
+
+    static void Swap(double& a, double& b)
+    {
+        double temp;
+        temp = a;
+        a = b;
+        b = temp;
+    }
 };
