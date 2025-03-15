@@ -95,7 +95,15 @@ public:
         Date2 = TempDate;
     }
 
-    static void shuffleArray(int arr[100], int length) {
+    static void shuffleArray(int arr[100], int length) 
+    {
+        for (int i = 0; i < length; i++) {
+            swap(arr[randomNumber(1, length) - 1], arr[randomNumber(1, length) - 1]);
+        }
+    }
+
+    static void shuffleArray(string arr[100], int length)
+    {
         for (int i = 0; i < length; i++) {
             swap(arr[randomNumber(1, length) - 1], arr[randomNumber(1, length) - 1]);
         }
