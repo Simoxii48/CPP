@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include "clsDate.h"
+#include <typeinfo>
 
 class clsInputValidate
 {
@@ -23,6 +24,21 @@ public:
 			(Date.IsDateBeforeDate2(DateFrom) && Date.IsDateAfterDate2(DateTo));
 	}
 
-	
+	static int readIntNumber(string errorMessage)
+	{
+		int x = 0;
+		cin >> x;
+		
+		while (cin.fail())
+		{
+			cin.clear();
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+			cout << errorMessage;
+			cin >> x;
+		}
+
+		return x;
+	}
 };
 
