@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <string>
+#include <cstdlib>
 using namespace std;
 
 class clsUtil
@@ -26,13 +27,14 @@ public:
             return char(randomNumber(97, 122));
         case capitalLetter:
             return char(randomNumber(65, 90));
-        //case SpecialCharacter:
-            //return char(randomNumber(33, 47));
+            //case SpecialCharacter:
+                //return char(randomNumber(33, 47));
         case Digit:
             return char(randomNumber(48, 57));
         case MixChars:
             return getRandomCharacter((enCharType)randomNumber(1, 3));
         }
     }
+
 };
 
