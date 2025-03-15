@@ -11,6 +11,10 @@ int main()
     cout << clsUtil::getRandomCharacter(clsUtil::MixChars) << endl;
     cout << clsUtil::generateWord(clsUtil::MixChars, 8) << endl;
     cout << clsUtil::generateKey(clsUtil::MixChars) << endl;
+    clsUtil::generateKeys(10, clsUtil::MixChars);
+
+    cout << endl;
+
 
     return 0;
 }
