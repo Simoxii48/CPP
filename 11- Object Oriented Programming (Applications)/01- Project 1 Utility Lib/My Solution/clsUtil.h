@@ -54,4 +54,11 @@ public:
 
         return key;
     }
+
+    static void generateKeys(short numberOfKeys,enCharType charType) {
+        for (int i = 1; i <= numberOfKeys; i++) {
+            cout << "Key [" << i << "] : ";
+            cout << generateKey(charType) << endl;
+        }
+    }
 };
