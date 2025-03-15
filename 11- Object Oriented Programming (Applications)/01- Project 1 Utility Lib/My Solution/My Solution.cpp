@@ -10,6 +10,7 @@ int main()
     cout << clsUtil::randomNumber(1, 10) << endl;
     cout << clsUtil::getRandomCharacter(clsUtil::MixChars) << endl;
     cout << clsUtil::generateWord(clsUtil::MixChars, 8) << endl;
+    cout << clsUtil::generateKey(clsUtil::MixChars) << endl;
 
     return 0;
 }
