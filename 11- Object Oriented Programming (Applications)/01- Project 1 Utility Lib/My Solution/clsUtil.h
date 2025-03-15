@@ -43,5 +43,15 @@ public:
         }
         return word;
     }
-};
 
+    static string generateKey(enCharType charType) {
+        string key = "";
+
+        key = generateWord(charType, 4) + "-";
+        key += generateWord(charType, 4) + "-";
+        key += generateWord(charType, 4) + "-";
+        key += generateWord(charType, 4);
+
+        return key;
+    }
+};
