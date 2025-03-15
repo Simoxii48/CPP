@@ -36,5 +36,12 @@ public:
         }
     }
 
+    static string generateWord(enCharType charType, short length) {
+        string word = "";
+        for (int i = 1; i <= length; i++) {
+            word += getRandomCharacter(charType);
+        }
+        return word;
+    }
 };
 
