@@ -147,4 +147,22 @@ public:
         }
         return t;
     }
+
+    static string encryptText(string text, short encryptionKey) {
+
+        for (int i = 0; i <= text.length(); i++) {
+            text[i] = char((int)text[i] + encryptionKey);
+        }
+
+        return text;
+    }
+
+    static string decryptText(string text, short encryptionKey) {
+
+        for (int i = 0; i <= text.length(); i++) {
+            text[i] = char((int)text[i] - encryptionKey);
+        }
+
+        return text;
+    }
 };
