@@ -137,4 +137,14 @@ public:
             arr[i] = generateKey(charType);
         }
     }
+
+    static string Tabs(short numberOfTabs) {
+        string t = "";
+
+        for (int i = 1; i < numberOfTabs; i++) {
+            t = t + "\t";
+            cout << t;
+        }
+        return t;
+    }
 };
