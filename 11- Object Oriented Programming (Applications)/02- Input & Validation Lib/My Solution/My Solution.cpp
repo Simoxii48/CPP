@@ -19,8 +19,10 @@ int main()
     cout << "y = " << y << endl;
 
     cout << "\nPlease enter a number : ";
-    int x = clsInputValidate::readDblNumber("Invalid number, Enter again : ");
-    cout << "x = " << x << endl;
+    double a = clsInputValidate::readDblNumber("Invalid number, Enter again : ");
+    cout << "a = " << a << endl;
 
-    
+    cout << "\nPlease enter a number between 1 and 5 : ";
+    double b = clsInputValidate::readDblNumberBetween(1, 5, "Number is not within range, Enter again : ");
+    cout << "b = " << b << endl;
 }
