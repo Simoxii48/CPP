@@ -40,5 +40,18 @@ public:
 
 		return x;
 	}
+
+	static int readIntNumberBetween(int from, int to, string errorMsg)
+	{
+		int x = readIntNumber("Invalid number, Enter again : ");
+		
+		while(!isNumberBetween(x, from, to))
+		{
+			cout << errorMsg;
+			x = readIntNumber("Invalid number, Enter again : ");
+		}
+
+		return x;
+	}
 };
 
