@@ -25,4 +25,6 @@ int main()
     cout << "\nPlease enter a number between 1 and 5 : ";
     double b = clsInputValidate::readDblNumberBetween(1, 5, "Number is not within range, Enter again : ");
     cout << "b = " << b << endl;
+
+    cout << clsInputValidate::isValideDate(clsDate(35, 12, 2025)) << endl;
 }
