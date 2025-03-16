@@ -71,6 +71,17 @@ public:
 		return x;
 	}
 
-	
+	static double readDblNumberBetween(double from, double to, string errorMsg)
+	{
+		double x = readIntNumber("Invalid number, Enter again : ");
+
+		while (!isNumberBetween(x, from, to))
+		{
+			cout << errorMsg;
+			x = readIntNumber("Invalid number, Enter again : ");
+		}
+
+		return x;
+	}
 };
 
