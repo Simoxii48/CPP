@@ -53,5 +53,24 @@ public:
 
 		return x;
 	}
+
+	static int readDblNumber(string errorMessage)
+	{
+		double x = 0;
+		cin >> x;
+
+		while (cin.fail())
+		{
+			cin.clear();
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+			cout << errorMessage;
+			cin >> x;
+		}
+
+		return x;
+	}
+
+	
 };
 
