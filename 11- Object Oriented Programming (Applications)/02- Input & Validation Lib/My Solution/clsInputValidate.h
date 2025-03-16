@@ -83,5 +83,10 @@ public:
 
 		return x;
 	}
+
+	static bool isValideDate(clsDate Date)
+	{
+		return Date.IsValidDate(Date);
+	}
 };
 
