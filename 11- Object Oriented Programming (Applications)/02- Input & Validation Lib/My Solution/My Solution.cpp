@@ -14,4 +14,7 @@ int main()
     int x = clsInputValidate::readIntNumber("Invalid number, Enter again : ");
     cout << "x = " << x << endl;
 
+    cout << "\nPlease enter a number between 1 and 5 : ";
+    int y = clsInputValidate::readIntNumberBetween(1, 5, "Number is not within range, Enter again : ");
+    cout << "y = " << y << endl;
 }
