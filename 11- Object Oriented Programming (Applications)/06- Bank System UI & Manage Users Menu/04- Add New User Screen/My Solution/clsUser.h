@@ -137,6 +137,13 @@ public:
 		_Permissions = Permissions;
 	}
 
+	enum enPermissions
+	{
+		eAll = -1, pListClients = 1, pAddNewClient = 2,
+		pDeleteClient = 4, pUpdateClient = 8, pFindClient = 16,
+		pTranscations = 32, pManageUsers = 64
+	};
+
 	bool IsEmpty()
 	{
 		return (_Mode == enMode::EmptyMode);
