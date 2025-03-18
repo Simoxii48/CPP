@@ -4,6 +4,7 @@
 #include <fstream>
 #include "clsInputValidate.h"
 #include "clsScreen.h"
+#include "clsUser.h"
 
 using namespace std;
 
@@ -28,7 +29,57 @@ private:
         User.Password = clsInputValidate::ReadString();
 
         cout << "\nEnter Permissions: ";
-        User.Permissions = clsInputValidate::ReadShortNumber();
+        User.Permissions =_ReadPermissions();
+    }
+
+    static int _ReadPermissions()
+    {
+        int Permissions = 0;
+        char answer = 'n';
+
+        cout << "\nDo you want to give full access (y/n) : ";
+        cin >> answer;
+
+        if (tolower(answer) == 'y')
+            return -1;
+
+        cout << "\nDo you want to give access to : \n";
+        cout << "Show Clients List (y/n) : ";
+        cin >> answer;
+        if (tolower(answer) == 'y')
+            Permissions += clsUser::enPermissions::pListClients;
+
+        cout << "Add New Client (y/n) : ";
+        cin >> answer;
+        if (tolower(answer) == 'y')
+            Permissions += clsUser::enPermissions::pAddNewClient;
+
+        cout << "Delete Client (y/n) : ";
+        cin >> answer;
+        if (tolower(answer) == 'y')
+            Permissions += clsUser::enPermissions::pDeleteClient;
+
+        cout << "Update Client (y/n) : ";
+        cin >> answer;
+        if (tolower(answer) == 'y')
+            Permissions += clsUser::enPermissions::pUpdateClient;
+
+        cout << "Find Client (y/n) : ";
+        cin >> answer;
+        if (tolower(answer) == 'y')
+            Permissions += clsUser::enPermissions::pFindClient;
+
+        cout << "Transactions (y/n) : ";
+        cin >> answer;
+        if (tolower(answer) == 'y')
+            Permissions += clsUser::enPermissions::pTranscations;
+
+        cout << "Manage Users (y/n) : ";
+        cin >> answer;
+        if (tolower(answer) == 'y')
+            Permissions += clsUser::enPermissions::pManageUsers;
+
+        return Permissions;
     }
 
     static void _PrintClient(clsUser User)
