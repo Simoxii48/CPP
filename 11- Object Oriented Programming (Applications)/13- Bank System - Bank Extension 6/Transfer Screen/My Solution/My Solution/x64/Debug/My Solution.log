@@ -1,0 +1,77 @@
+﻿  My Solution.cpp
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsString.h(43,25): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'My%20Solution.cpp')
+  
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsString.h(48,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'My%20Solution.cpp')
+  
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsString.h(60,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'My%20Solution.cpp')
+  
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsString.h(197,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'My%20Solution.cpp')
+  
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsString.h(328,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'My%20Solution.cpp')
+  
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsString.h(376,22): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'My%20Solution.cpp')
+  
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsUser.h(30,50): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'My%20Solution.cpp')
+  
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsInputValidate.h(115,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'My%20Solution.cpp')
+  
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsInputValidate.h(119,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'My%20Solution.cpp')
+  
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsBankClient.h(31,56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'My%20Solution.cpp')
+  
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsBankClient.h(204,10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'My%20Solution.cpp')
+  
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsBankClient.h(373,10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'My%20Solution.cpp')
+  
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsAddNewCLientScreen.h(32,66): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'My%20Solution.cpp')
+  
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsShowUpdateClientScreen.h(30,66): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'My%20Solution.cpp')
+  
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsUtil.h(68,5): warning C4102: 'defualt': unreferenced label
+  (compiling source file 'My%20Solution.cpp')
+  
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsTotalBalancesScreen.h(56,60): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'My%20Solution.cpp')
+  
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsTransferScreen.h(53,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'My%20Solution.cpp')
+  
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsTransferScreen.h(58,54): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'My%20Solution.cpp')
+  
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsShowTransactionsScreen.h(94,21): warning C4129: ' ': unrecognized character escape sequence
+  (compiling source file 'My%20Solution.cpp')
+  
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsShowTransactionsScreen.h(97,37): warning C4129: ' ': unrecognized character escape sequence
+  (compiling source file 'My%20Solution.cpp')
+  
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsAddUserScreen.h(101,17): warning C4129: 'P': unrecognized character escape sequence
+  (compiling source file 'My%20Solution.cpp')
+  
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsDeleteUserScreen.h(25,11): warning C4129: 'P': unrecognized character escape sequence
+  (compiling source file 'My%20Solution.cpp')
+  
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsManageUsersScreen.h(104,21): warning C4129: ' ': unrecognized character escape sequence
+  (compiling source file 'My%20Solution.cpp')
+  
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsManageUsersScreen.h(107,37): warning C4129: ' ': unrecognized character escape sequence
+  (compiling source file 'My%20Solution.cpp')
+  
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsBankClient.h(320,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsBankClient.h(392,1): warning C4715: 'clsBankClient::Withdraw': not all control paths return a value
+C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\clsUser.h(288,1): warning C4715: 'clsUser::Save': not all control paths return a value
+  My Solution.vcxproj -> C:\Users\mouha\Desktop\CPP\11- Object Oriented Programming (Applications)\13- Bank System - Bank Extension 6\Transfer Screen\My Solution\x64\Debug\My Solution.exe
