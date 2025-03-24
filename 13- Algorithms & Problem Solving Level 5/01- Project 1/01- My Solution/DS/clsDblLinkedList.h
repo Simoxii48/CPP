@@ -185,4 +185,18 @@ public:
 
         delete temp;
     }
+
+    int Size()
+    {
+        int size = 0;
+        Node *current = Head;
+
+        while (current != NULL)
+        {
+            size++;
+            current = current->next;
+        }
+
+        return size;
+    }
 };
