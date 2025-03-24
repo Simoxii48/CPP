@@ -51,4 +51,6 @@ int main()
 
     cout << "\n\nAfter Delete Last Node :\n";
     MyDblLinkedList.PrintList();
+
+    cout << "\nNumber of items in the Linked List = " << MyDblLinkedList.Size() << endl;
 }
