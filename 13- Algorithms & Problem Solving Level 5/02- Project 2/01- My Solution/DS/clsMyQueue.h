@@ -52,4 +52,9 @@ public:
     {
         _myQueue.Reverse();
     }
+
+    void UpdateItem(int index, T value)
+    {
+        _myQueue.UpdateItem(index, value);
+    }
 };
