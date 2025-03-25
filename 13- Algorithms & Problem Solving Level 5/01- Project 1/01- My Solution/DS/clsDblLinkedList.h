@@ -228,4 +228,19 @@ public:
         if (temp != nullptr)
             Head = temp->prev;
     }
+
+    Node *GetNode(int index)
+    {
+        Node *current = Head;
+        int idx = 0;
+
+        while (current != NULL)
+        {
+            if (index == idx)
+                return current;
+            current = current->next;
+            idx++;
+        }
+        return NULL;
+    }
 };
