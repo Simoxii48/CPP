@@ -256,13 +256,16 @@ public:
         return node != NULL ? node->value : 0;
     }
 
-    void UpdateItem(int index, T value)
+    bool UpdateItem(int index, T value)
     {
         Node *itemNode = GetNode(index);
 
         if (itemNode == NULL)
-            return;
+            return false;
         else
+        {
             itemNode->value = value;
+            return true;
+        }
     }
 };
