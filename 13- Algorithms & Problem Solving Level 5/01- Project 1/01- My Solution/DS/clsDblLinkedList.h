@@ -268,4 +268,16 @@ public:
             return true;
         }
     }
+
+    void InsertAfter(int index, T value)
+    {
+        Node *itemNode = GetNode(index);
+
+        if (itemNode == NULL)
+            return;
+        else
+        {
+            InsertAfter(itemNode, value);
+        }
+    }
 };
