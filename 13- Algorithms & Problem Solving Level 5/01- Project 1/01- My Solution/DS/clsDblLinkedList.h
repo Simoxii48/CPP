@@ -231,11 +231,11 @@ public:
 
     Node *GetNode(int index)
     {
-        int counter = 0;
+        int idx = 0;
 
         // check that we are within the range
-        if (idx > _Size - 1 || idx < 0)
-            return;
+        if (index > _Size - 1 || index < 0)
+            return NULL;
 
         Node *current = Head;
 
@@ -248,5 +248,11 @@ public:
         }
 
         return current;
+    }
+
+    T GetItem(int index)
+    {
+        Node *node = GetNode(index);
+        return node != NULL ? node->value : 0;
     }
 };
