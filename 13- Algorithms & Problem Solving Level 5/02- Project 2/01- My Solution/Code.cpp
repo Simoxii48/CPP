@@ -24,4 +24,9 @@ int main()
 
     cout << "\nQueue after Pop : ";
     myQueue.Print();
+
+    // Extension 1
+    cout << "\n\nItem(2) : " << myQueue.GetItem(2) << endl;
+
+    
 }
