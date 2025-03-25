@@ -198,4 +198,9 @@ public:
     {
         return _Size;
     }
+
+    bool IsEmpty()
+    {
+        return Head == NULL;
+    }
 };
