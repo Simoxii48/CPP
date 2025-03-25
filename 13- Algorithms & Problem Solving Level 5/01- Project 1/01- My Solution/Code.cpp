@@ -69,6 +69,10 @@ int main()
 
     cout << "\nItem[2] value is : " << MyDblLinkedList.GetItem(2) << endl;
 
+    MyDblLinkedList.UpdateItem(2, 90);
+    cout << "\nAfter updating item[2] :\n";
+    MyDblLinkedList.PrintList();
+
     cout << "\nLinked List Content after Reverse :\n\n";
     MyDblLinkedList.Reverse();
     MyDblLinkedList.PrintList();
