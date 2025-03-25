@@ -39,7 +39,12 @@ int main()
     myQueue.Print();
 
     // Extension 4
-    myQueue.InsertAfter(2,800);
+    myQueue.InsertAfter(2, 800);
     cout << "\n\nQueue after Inserting 800 after item(2) :\n";
+    myQueue.Print();
+
+    // Extension 5
+    myQueue.InsertAtFront(1000);
+    cout << "\n\nQueue after Inserting 1000 at front :\n";
     myQueue.Print();
 }
