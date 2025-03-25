@@ -47,4 +47,9 @@ int main()
     myQueue.InsertAtFront(1000);
     cout << "\n\nQueue after Inserting 1000 at front :\n";
     myQueue.Print();
+
+    // Extension 6
+    myQueue.InsertAtBack(2000);
+    cout << "\n\nQueue after Inserting 2000 at back :\n";
+    myQueue.Print();
 }
