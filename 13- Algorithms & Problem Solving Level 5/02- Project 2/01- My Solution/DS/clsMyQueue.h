@@ -47,4 +47,9 @@ public:
     {
         return _myQueue.GetItem(index);
     }
+
+    void Reverse()
+    {
+        _myQueue.Reverse();
+    }
 };
