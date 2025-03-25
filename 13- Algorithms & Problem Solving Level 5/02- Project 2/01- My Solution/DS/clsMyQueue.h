@@ -62,4 +62,9 @@ public:
     {
         _myQueue.InsertAfter(index, value);
     }
+
+    void InsertAtFront(T value)
+    {
+        _myQueue.InsertAtBeginning(value);
+    }
 };
