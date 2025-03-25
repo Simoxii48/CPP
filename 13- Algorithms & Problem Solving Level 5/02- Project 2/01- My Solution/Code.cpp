@@ -52,4 +52,9 @@ int main()
     myQueue.InsertAtBack(2000);
     cout << "\n\nQueue after Inserting 2000 at back :\n";
     myQueue.Print();
+
+    // Extension 7
+    myQueue.Clear();
+    cout << "\n\nQueue after Clear :\n";
+    myQueue.Print();
 }
