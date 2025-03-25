@@ -83,6 +83,17 @@ public:
         cout << "NULL" << endl;
     }
 
+    void Print()
+    {
+        Node *current = Head;
+        while (head != NULL)
+        {
+            cout << Head->value << " ";
+            current = current->next;
+        }
+        cout << endl;
+    }
+
     Node *Find(T value)
     {
         Node *temp = Head;
