@@ -141,4 +141,29 @@ public:
     {
         DeleteItemAt(_Size - 1);
     }
+
+    int Find(T value)
+    {
+        int found = -1;
+
+        for (int i = 0; i < _Size; i++)
+        {
+            if (OriginalArr[i] == value)
+                return i;
+        }
+        return found;
+    }
+
+    bool DeleteItem(T value)
+    {
+        int index = Find(value);
+
+        if (index == -1)
+            return false;
+        else
+        {
+            DeleteItemAt(index);
+            return true;
+        }
+    }
 };
