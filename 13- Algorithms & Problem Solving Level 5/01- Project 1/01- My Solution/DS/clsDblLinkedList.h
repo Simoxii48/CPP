@@ -231,16 +231,22 @@ public:
 
     Node *GetNode(int index)
     {
-        Node *current = Head;
-        int idx = 0;
+        int counter = 0;
 
-        while (current != NULL)
+        // check that we are within the range
+        if (idx > _Size - 1 || idx < 0)
+            return;
+
+        Node *current = Head;
+
+        while (current != NULL && current->next != NULL)
         {
             if (index == idx)
-                return current;
+                break;
             current = current->next;
             idx++;
         }
-        return NULL;
+
+        return current;
     }
 };
