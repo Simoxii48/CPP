@@ -16,7 +16,6 @@ int main()
     cout << "\n\nIs Empty : " << myDynamicArray.IsEmpty() << endl;
     cout << "\nArray Size : " << myDynamicArray.Size() << endl;
     cout << "\nArray Items:\n";
-
     myDynamicArray.PrintList();
 
     cout << "\nItem(2) : " << myDynamicArray.GetItem(2) << endl;
@@ -48,6 +47,27 @@ int main()
     myDynamicArray.Resize(10);
     cout << "\nArray Size : " << myDynamicArray.Size() << endl;
     cout << "\nArray Items after resize to 10 :\n";
+    myDynamicArray.PrintList();
+
+    myDynamicArray.SetItem(0, 10);
+    myDynamicArray.SetItem(1, 20);
+    myDynamicArray.SetItem(2, 30);
+    myDynamicArray.SetItem(3, 40);
+    myDynamicArray.SetItem(4, 50);
+
+    cout << "\nArray Size : " << myDynamicArray.Size() << endl;
+    cout << "\nArray Items:\n";
+    myDynamicArray.PrintList();
+
+    int index = myDynamicArray.Find(30);
+    if (index == -1)
+        cout << "\nItem was not found :(" << endl;
+    else
+        cout << "\n30 is found at index : " << index;
+
+    myDynamicArray.DeleteItem(30);
+    cout << "\nArray Size : " << myDynamicArray.Size() << endl;
+    cout << "\nArray Items after deleting 30 :\n";
     myDynamicArray.PrintList();
 
     myDynamicArray.Clear();
