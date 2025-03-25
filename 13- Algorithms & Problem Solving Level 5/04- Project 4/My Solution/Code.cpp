@@ -30,6 +30,16 @@ int main()
     cout << "\nArray Items after Delete item(2) :\n";
     myDynamicArray.PrintList();
 
+    myDynamicArray.DeleteFirstItem();
+    cout << "\nArray Size : " << myDynamicArray.Size() << endl;
+    cout << "\nArray Items after Delete first item :\n";
+    myDynamicArray.PrintList();
+
+    myDynamicArray.DeleteLastItem();
+    cout << "\nArray Size : " << myDynamicArray.Size() << endl;
+    cout << "\nArray Items after Delete last item :\n";
+    myDynamicArray.PrintList();
+
     myDynamicArray.Resize(2);
     cout << "\nArray Size : " << myDynamicArray.Size() << endl;
     cout << "\nArray Items after resize to 2 :\n";
