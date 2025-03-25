@@ -144,14 +144,12 @@ public:
 
     int Find(T value)
     {
-        int found = -1;
-
         for (int i = 0; i < _Size; i++)
         {
             if (OriginalArr[i] == value)
                 return i;
         }
-        return found;
+        return -1;
     }
 
     bool DeleteItem(T value)
@@ -160,10 +158,8 @@ public:
 
         if (index == -1)
             return false;
-        else
-        {
-            DeleteItemAt(index);
-            return true;
-        }
+
+        DeleteItemAt(index);
+        return true;
     }
 };
