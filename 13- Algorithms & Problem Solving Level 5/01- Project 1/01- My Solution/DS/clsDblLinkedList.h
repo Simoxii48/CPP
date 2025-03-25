@@ -255,4 +255,14 @@ public:
         Node *node = GetNode(index);
         return node != NULL ? node->value : 0;
     }
+
+    void UpdateItem(int index, T value)
+    {
+        Node *itemNode = GetNode(index);
+
+        if (itemNode == NULL)
+            return;
+        else
+            itemNode->value = value;
+    }
 };
