@@ -206,8 +206,9 @@ public:
 
     void Clear()
     {
-        delete Head;
-        Head = NULL;
-        _Size = 0;
+        while (_Size > 0)
+        {
+            DeleteFirstNode();
+        }
     }
 };
