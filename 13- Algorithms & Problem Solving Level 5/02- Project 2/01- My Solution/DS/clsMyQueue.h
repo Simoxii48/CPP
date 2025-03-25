@@ -67,4 +67,9 @@ public:
     {
         _myQueue.InsertAtBeginning(value);
     }
+
+    void InsertAtBack(T value)
+    {
+        _myQueue.InsertAtEnd(value);
+    }
 };
