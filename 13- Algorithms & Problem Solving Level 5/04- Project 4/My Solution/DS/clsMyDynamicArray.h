@@ -105,4 +105,30 @@ public:
         delete[] OriginalArr;
         OriginalArr = nullptr;
     }
+
+    bool DeleteItemAt(int index)
+    {
+        if (index >= _Size || index < 0)
+            return false;
+
+        _Size--;
+
+        _TempArr = new T[_Size];
+
+        // copy before index
+        for (int i = 0; i < index; i++)
+        {
+            _TempArr[i] = OriginalArr[i];
+        }
+
+        // copy after index
+        for (int i = index + 1; i < _Size + 1; i++)
+        {
+            _TempArr[i - 1] = OriginalArr[i];
+        }
+
+        delete[] OriginalArr;
+        OriginalArr = _TempArr;
+        return true;
+    }
 };
