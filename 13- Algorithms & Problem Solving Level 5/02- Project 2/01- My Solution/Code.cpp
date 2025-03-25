@@ -28,5 +28,8 @@ int main()
     // Extension 1
     cout << "\n\nItem(2) : " << myQueue.GetItem(2) << endl;
 
-    
+    // Extension 2
+    myQueue.Reverse();
+    cout << "\n\nQueue after Reverse :\n";
+    myQueue.Print();
 }
