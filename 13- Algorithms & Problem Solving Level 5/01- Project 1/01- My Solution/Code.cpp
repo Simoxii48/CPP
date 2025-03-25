@@ -73,6 +73,10 @@ int main()
     cout << "\nAfter updating item[2] :\n";
     MyDblLinkedList.PrintList();
 
+    MyDblLinkedList.InsertAfter(1, 17);
+    cout << "\nAfter insert :\n";
+    MyDblLinkedList.PrintList();
+
     cout << "\nLinked List Content after Reverse :\n\n";
     MyDblLinkedList.Reverse();
     MyDblLinkedList.PrintList();
