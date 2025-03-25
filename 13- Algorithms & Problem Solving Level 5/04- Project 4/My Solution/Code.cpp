@@ -18,4 +18,14 @@ int main()
     cout << "\nArray Items:\n";
 
     myDynamicArray.PrintList();
+
+    myDynamicArray.Resize(2);
+    cout << "\nArray Size : " << myDynamicArray.Size() << endl;
+    cout << "\nArray Items after resize to 2 :\n";
+    myDynamicArray.PrintList();
+
+    myDynamicArray.Resize(10);
+    cout << "\nArray Size : " << myDynamicArray.Size() << endl;
+    cout << "\nArray Items after resize to 10 :\n";
+    myDynamicArray.PrintList();
 }
