@@ -134,29 +134,11 @@ public:
 
     void DeleteFirstItem()
     {
-        _Size--;
-        _TempArr = new T[_Size];
-
-        for (int i = 1; i <= _Size; i++)
-        {
-            _TempArr[i - 1] = OriginalArr[i];
-        }
-
-        delete[] OriginalArr;
-        OriginalArr = _TempArr;
+        DeleteItemAt(0);
     }
 
     void DeleteLastItem()
     {
-        _Size--;
-        _TempArr = new T[_Size];
-
-        for (int i = 0; i < _Size; i++)
-        {
-            _TempArr[i] = OriginalArr[i];
-        }
-
-        delete[] OriginalArr;
-        OriginalArr = _TempArr;
+        DeleteItemAt(_Size - 1);
     }
 };
