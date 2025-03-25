@@ -203,4 +203,11 @@ public:
     {
         return Head == NULL;
     }
+
+    void Clear()
+    {
+        delete Head;
+        Head = NULL;
+        _Size = 0;
+    }
 };
