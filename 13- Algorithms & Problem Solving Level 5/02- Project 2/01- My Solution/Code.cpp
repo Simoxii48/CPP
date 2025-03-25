@@ -37,4 +37,9 @@ int main()
     myQueue.UpdateItem(2, 600);
     cout << "\n\nQueue after Updating item(2) to 600 :\n";
     myQueue.Print();
+
+    // Extension 4
+    myQueue.InsertAfter(2,800);
+    cout << "\n\nQueue after Inserting 800 after item(2) :\n";
+    myQueue.Print();
 }
