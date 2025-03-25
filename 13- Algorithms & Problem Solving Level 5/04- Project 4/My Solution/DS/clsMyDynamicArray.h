@@ -162,4 +162,29 @@ public:
         DeleteItemAt(index);
         return true;
     }
+
+    bool InsertAt(int index, T value)
+    {
+        if (index > _Size || index < 0)
+            return false;
+
+        _Size++;
+        _TempArr = new T[_Size];
+
+        for (int i = 0; i < index; i++)
+        {
+            _TempArr[i] = OriginalArr[i];
+        }
+
+        _TempArr[index] = value;
+
+        for (int i = index; i < _Size - 1; i++)
+        {
+            _TempArr[i + 1] = OriginalArr[i];
+        }
+
+        delete[] OriginalArr;
+        OriginalArr = _TempArr;
+        return true;
+    }
 };
