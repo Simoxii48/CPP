@@ -57,4 +57,9 @@ public:
     {
         _myQueue.UpdateItem(index, value);
     }
+
+    void InsertAfter(int index, T value)
+    {
+        _myQueue.InsertAfter(index, value);
+    }
 };
