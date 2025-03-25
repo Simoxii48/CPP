@@ -64,6 +64,9 @@ int main()
     else
         cout << "\n\nNo, List is not Empty.\n";
 
+    clsDblLinkedList<int>::Node *N = MyDblLinkedList.GetNode(2);
+    cout << "\nNode value is : " << N->value << endl;
+
     cout << "\nLinked List Content after Reverse :\n\n";
     MyDblLinkedList.Reverse();
     MyDblLinkedList.PrintList();
