@@ -1,6 +1,7 @@
 #pragma once
 
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 template <class T>
@@ -12,6 +13,13 @@ public:
 protected:
     int _Size = 0;
     T *_TempArr;
+    void _Swap(T &A, T &B)
+    {
+        T temp;
+        temp = A;
+        A = B;
+        B = temp;
+    }
 
 public:
     T *OriginalArr;
@@ -75,5 +83,26 @@ public:
         _Size = new_size;
         delete[] OriginalArr;
         OriginalArr = _TempArr;
+    }
+
+    T GetItem(int index)
+    {
+        return OriginalArr[index];
+    }
+
+    void Reverse()
+    {
+        int halfArr = floor(_Size / 2);
+        for (int i = 0; i < halfArr; i++)
+        {
+            _Swap(OriginalArr[i], OriginalArr[_Size - 1 - i]);
+        }
+    }
+
+    void Clear()
+    {
+        _Size = 0;
+        delete[] OriginalArr;
+        OriginalArr = nullptr;
     }
 };
