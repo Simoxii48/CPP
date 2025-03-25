@@ -2,80 +2,31 @@
 
 #include <iostream>
 #include "../../../01- Project 1/01- My Solution/DS/clsDblLinkedList.h"
+#include "../../../02- Project 2/01- My Solution/DS/clsMyQueue.h"
 
 using namespace std;
 
 template <class T>
 
-class clsMyStack
+class clsMyStack : public clsMyQueue<T>
 {
 protected:
     // Composition Concept
-    clsDblLinkedList<T> myStack;
+    // clsDblLinkedList<T> myStack;
 
 public:
     void Push(T value)
     {
-        myStack.InsertAtBeginning(value);
-    }
-
-    void Print()
-    {
-        myStack.Print();
-    }
-
-    int Size()
-    {
-        return myStack.Size();
+        clsMyQueue<T>::_myQueue.InsertAtBeginning(value);
     }
 
     T Top()
     {
-        return myStack.GetItem(0);
+        return clsMyQueue<T>::Front();
     }
 
     T Bottom()
     {
-        return myStack.GetItem(Size() - 1);
-    }
-
-    void Pop()
-    {
-        myStack.DeleteFirstNode();
-    }
-
-    T GetItem(int index)
-    {
-        return myStack.GetItem(index);
-    }
-
-    void Reverse()
-    {
-        myStack.Reverse();
-    }
-
-    void UpdateItem(int index, T value)
-    {
-        myStack.UpdateItem(index, value);
-    }
-
-    void InsertAfter(int index, T value)
-    {
-        myStack.InsertAfter(index, value);
-    }
-
-    void InsertAtFront(T value)
-    {
-        myStack.InsertAtBeginning(value);
-    }
-
-    void InsertAtBack(T value)
-    {
-        myStack.InsertAtEnd(value);
-    }
-
-    void Clear()
-    {
-        myStack.Clear();
+        return clsMyQueue<T>::Back();
     }
 };
