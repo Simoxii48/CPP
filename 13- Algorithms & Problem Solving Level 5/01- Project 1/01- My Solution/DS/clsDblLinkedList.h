@@ -7,6 +7,8 @@ template <class T>
 
 class clsDblLinkedList
 {
+protected:
+    int _Size = 0;
 
 public:
     class Node
@@ -38,6 +40,7 @@ public:
         }
 
         Head = new_node;
+        _Size++;
     }
 
     void _PrintNodeDetails(Node *Head)
@@ -104,6 +107,7 @@ public:
         if (current->next != NULL)
             current->next->prev = new_node;
         current->next = new_node;
+        _Size++;
     }
 
     void InsertAtEnd(T value)
@@ -129,6 +133,7 @@ public:
             current->next = new_node;
             new_node->prev = current;
         }
+        _Size++;
     }
 
     void DeleteNode(Node *current)
@@ -146,6 +151,7 @@ public:
             current->prev->next = current->next;
 
         delete current;
+        _Size--;
     }
 
     void DeleteFirstNode()
@@ -160,6 +166,7 @@ public:
         if (Head != NULL)
             Head->prev = NULL;
         delete FirstNode;
+        _Size--;
     }
 
     void DeleteLastNode()
@@ -184,19 +191,11 @@ public:
         Last_node->next = NULL;
 
         delete temp;
+        _Size--;
     }
 
     int Size()
     {
-        int size = 0;
-        Node *current = Head;
-
-        while (current != NULL)
-        {
-            size++;
-            current = current->next;
-        }
-
-        return size;
+        return _Size;
     }
 };
