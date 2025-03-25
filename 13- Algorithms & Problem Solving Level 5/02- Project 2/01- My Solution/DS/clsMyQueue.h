@@ -43,7 +43,7 @@ public:
         _myQueue.DeleteFirstNode();
     }
 
-    int GetItem(int index)
+    T GetItem(int index)
     {
         return _myQueue.GetItem(index);
     }
