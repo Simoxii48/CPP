@@ -72,4 +72,9 @@ public:
     {
         _myQueue.InsertAtEnd(value);
     }
+
+    void Clear()
+    {
+        _myQueue.Clear();
+    }
 };
