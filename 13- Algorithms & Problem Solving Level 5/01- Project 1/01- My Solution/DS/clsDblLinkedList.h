@@ -88,7 +88,7 @@ public:
         Node *current = Head;
         while (current != NULL)
         {
-            cout << Head->value << " ";
+            cout << current->value << " ";
             current = current->next;
         }
         cout << endl;
