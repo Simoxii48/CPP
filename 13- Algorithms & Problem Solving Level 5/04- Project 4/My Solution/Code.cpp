@@ -70,6 +70,11 @@ int main()
     cout << "\nArray Items after deleting 30 :\n";
     myDynamicArray.PrintList();
 
+    myDynamicArray.InsertAt(2, 500);
+    cout << "\nArray Size : " << myDynamicArray.Size() << endl;
+    cout << "\nArray Items after inserting 500 after item(2) :\n";
+    myDynamicArray.PrintList();
+
     myDynamicArray.Clear();
     cout << "\nArray Items after Clear :\n";
     myDynamicArray.PrintList();
