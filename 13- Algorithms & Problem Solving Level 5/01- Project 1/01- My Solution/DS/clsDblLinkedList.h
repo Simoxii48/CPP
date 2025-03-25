@@ -86,7 +86,7 @@ public:
     void Print()
     {
         Node *current = Head;
-        while (head != NULL)
+        while (current != NULL)
         {
             cout << Head->value << " ";
             current = current->next;
