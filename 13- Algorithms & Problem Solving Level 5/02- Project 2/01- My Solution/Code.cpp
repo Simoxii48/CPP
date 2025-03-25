@@ -32,4 +32,9 @@ int main()
     myQueue.Reverse();
     cout << "\n\nQueue after Reverse :\n";
     myQueue.Print();
+
+    // Extension 3
+    myQueue.UpdateItem(2, 600);
+    cout << "\n\nQueue after Updating item(2) to 600 :\n";
+    myQueue.Print();
 }
