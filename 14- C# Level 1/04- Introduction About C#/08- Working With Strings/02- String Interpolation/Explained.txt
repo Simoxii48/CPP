@@ -1,0 +1,7 @@
+String Interpolation
+
+String interpolation is a better way of concatenating strings. We use + sign to concatenate 
+string variables with static strings.
+
+C# 6 includes a special character $ to identify an interpolated string. An interpolated string 
+is a mixture of static string and string variable where string variables should be in {} brackets.
