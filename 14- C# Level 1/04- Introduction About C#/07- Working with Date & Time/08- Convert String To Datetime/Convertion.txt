@@ -1,0 +1,8 @@
+Convert String to DateTime
+
+A valid date and time string can be converted to a DateTime object using Parse(), ParseExact(), 
+TryParse() and TryParseExact() methods.
+
+The Parse() and ParseExact() methods will throw an exception if the specified string is not a valid 
+representation of a date and time. So, it's recommended to use TryParse() or TryParseExact() method 
+because they return false if a string is not valid.
