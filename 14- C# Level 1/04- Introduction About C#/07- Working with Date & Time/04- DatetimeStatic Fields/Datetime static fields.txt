@@ -1,0 +1,4 @@
+DateTime Static Fields
+
+The DateTime struct includes static fields, properties, and methods. 
+The following example demonstrates important static fields and properties
