@@ -1,0 +1,6 @@
+User Input and Numbers
+
+The Console.ReadLine() method returns a string. Therefore, you cannot get information from another 
+data type, such as int.
+
+therefore you should use casting when you read.
