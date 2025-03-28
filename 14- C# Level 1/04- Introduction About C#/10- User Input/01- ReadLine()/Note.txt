@@ -1,0 +1,8 @@
+Get User Input
+
+You have already learned that Console.WriteLine() is used to output (print) values, 
+for input we use Console.ReadLine()
+
+Equivalent to cin>> in C++
+
+Important: Console.ReadLine() always reads string.
