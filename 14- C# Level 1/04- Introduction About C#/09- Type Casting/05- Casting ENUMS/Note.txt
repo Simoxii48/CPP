@@ -1,0 +1,3 @@
+Enums Conversion
+
+Explicit casting is required to convert from an enum type to its underlying integral type.
