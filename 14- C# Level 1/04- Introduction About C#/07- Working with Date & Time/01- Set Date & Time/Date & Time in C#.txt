@@ -1,0 +1,12 @@
+Working with Date and Time in C#
+
+C# includes DateTime struct to work with dates and times.
+
+To work with date and time in C#, create an object of the DateTime struct using the new keyword.
+The following creates a DateTime object with the default value.
+
+DateTime dt = new DateTime(); // assigns default value 01/01/0001 00:00:00
+
+
+The default and the lowest value of a DateTime object is January 1, 0001 00:00:00 (midnight). 
+The maximum value can be December 31, 9999 11:59:59 P.M.
