@@ -1,0 +1,4 @@
+C# - Anonymous Type
+
+In C#, an anonymous type is a type (class) without any name that can contain 
+public read-only properties only. It cannot contain other members, such as fields, methods, events, etc.
