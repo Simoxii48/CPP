@@ -1,0 +1,6 @@
+Current Datetime in C#
+
+you can get the current date time using :
+
+           DateTime dt1 = new DateTime();
+           dt1 = DateTime.Now;
