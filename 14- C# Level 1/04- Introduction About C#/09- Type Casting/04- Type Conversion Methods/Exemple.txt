@@ -1,0 +1,5 @@
+Type Conversion Methods
+
+It is also possible to convert data types explicitly by using built-in methods, 
+such as Convert.ToBoolean, Convert.ToDouble, Convert.ToString, Convert.ToInt32 (int) and 
+Convert.ToInt64 (long)
