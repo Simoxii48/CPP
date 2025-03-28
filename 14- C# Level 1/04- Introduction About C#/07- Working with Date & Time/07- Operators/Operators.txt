@@ -1,0 +1,4 @@
+Operators
+
+The DateTime struct overloads +, -, ==, !=, >, <, <=, >= operators to ease out addition, 
+subtraction, and comparison of dates. These make it easy to work with dates.
