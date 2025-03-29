@@ -1,0 +1,10 @@
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\01- First Win Form App\bin\Debug\01- First Win Form App.exe.config
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\01- First Win Form App\bin\Debug\01- First Win Form App.exe
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\01- First Win Form App\bin\Debug\01- First Win Form App.pdb
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\01- First Win Form App\obj\Debug\01- First Win Form App.csproj.AssemblyReference.cache
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\01- First Win Form App\obj\Debug\_01__First_Win_Form_App.Form1.resources
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\01- First Win Form App\obj\Debug\_01__First_Win_Form_App.Properties.Resources.resources
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\01- First Win Form App\obj\Debug\01- First Win Form App.csproj.GenerateResource.cache
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\01- First Win Form App\obj\Debug\01- First Win Form App.csproj.CoreCompileInputs.cache
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\01- First Win Form App\obj\Debug\01- First Win Form App.exe
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\01- First Win Form App\obj\Debug\01- First Win Form App.pdb
