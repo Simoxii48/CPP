@@ -1,0 +1,11 @@
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\03- Some Formatting & Alignements\bin\Debug\03- Some Formatting & Alignements.exe.config
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\03- Some Formatting & Alignements\bin\Debug\03- Some Formatting & Alignements.exe
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\03- Some Formatting & Alignements\bin\Debug\03- Some Formatting & Alignements.pdb
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\03- Some Formatting & Alignements\obj\Debug\03- Some Formatting & Alignements.csproj.AssemblyReference.cache
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\03- Some Formatting & Alignements\obj\Debug\_03__Some_Formatting___Alignements.Form1.resources
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\03- Some Formatting & Alignements\obj\Debug\_03__Some_Formatting___Alignements.Properties.Resources.resources
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\03- Some Formatting & Alignements\obj\Debug\03- Some Formatting & Alignements.csproj.GenerateResource.cache
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\03- Some Formatting & Alignements\obj\Debug\03- Some Formatting & Alignements.csproj.CoreCompileInputs.cache
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\03- Some Formatting & Alignements\obj\Debug\03- Some Formatting & Alignements.exe
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\03- Some Formatting & Alignements\obj\Debug\03- Some Formatting & Alignements.pdb
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\03- Some Formatting & Alignements\obj\Debug\_03__Some_Formatting___Alignements.frmMain.resources
