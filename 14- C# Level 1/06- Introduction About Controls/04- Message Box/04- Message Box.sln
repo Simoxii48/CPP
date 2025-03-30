@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04- Message Box", "04- Message Box.csproj", "{5DAE3570-1890-45FF-A87B-27C1CDD042DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DAE3570-1890-45FF-A87B-27C1CDD042DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DAE3570-1890-45FF-A87B-27C1CDD042DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DAE3570-1890-45FF-A87B-27C1CDD042DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DAE3570-1890-45FF-A87B-27C1CDD042DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93C3EA05-7738-45FE-80FA-0B42D8F8E4F2}
+	EndGlobalSection
+EndGlobal

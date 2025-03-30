@@ -1,0 +1,11 @@
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\04- Message Box\bin\Debug\04- Message Box.exe.config
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\04- Message Box\bin\Debug\04- Message Box.exe
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\04- Message Box\bin\Debug\04- Message Box.pdb
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\04- Message Box\obj\Debug\04- Message Box.csproj.AssemblyReference.cache
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\04- Message Box\obj\Debug\_04__Message_Box.Form1.resources
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\04- Message Box\obj\Debug\_04__Message_Box.Properties.Resources.resources
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\04- Message Box\obj\Debug\04- Message Box.csproj.GenerateResource.cache
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\04- Message Box\obj\Debug\04- Message Box.csproj.CoreCompileInputs.cache
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\04- Message Box\obj\Debug\04- Message Box.exe
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\04- Message Box\obj\Debug\04- Message Box.pdb
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\04- Message Box\obj\Debug\_04__Message_Box.frmMessageBox.resources
