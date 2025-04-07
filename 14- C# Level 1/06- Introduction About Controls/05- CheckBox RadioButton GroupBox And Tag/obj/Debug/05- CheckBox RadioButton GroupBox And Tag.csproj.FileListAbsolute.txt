@@ -1,0 +1,10 @@
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\05- CheckBox RadioButton GroupBox And Tag\bin\Debug\05- CheckBox RadioButton GroupBox And Tag.exe.config
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\05- CheckBox RadioButton GroupBox And Tag\bin\Debug\05- CheckBox RadioButton GroupBox And Tag.exe
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\05- CheckBox RadioButton GroupBox And Tag\bin\Debug\05- CheckBox RadioButton GroupBox And Tag.pdb
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\05- CheckBox RadioButton GroupBox And Tag\obj\Debug\05- CheckBox RadioButton GroupBox And Tag.csproj.AssemblyReference.cache
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\05- CheckBox RadioButton GroupBox And Tag\obj\Debug\_05__CheckBox_RadioButton_GroupBox_And_Tag.Form1.resources
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\05- CheckBox RadioButton GroupBox And Tag\obj\Debug\_05__CheckBox_RadioButton_GroupBox_And_Tag.Properties.Resources.resources
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\05- CheckBox RadioButton GroupBox And Tag\obj\Debug\05- CheckBox RadioButton GroupBox And Tag.csproj.GenerateResource.cache
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\05- CheckBox RadioButton GroupBox And Tag\obj\Debug\05- CheckBox RadioButton GroupBox And Tag.csproj.CoreCompileInputs.cache
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\05- CheckBox RadioButton GroupBox And Tag\obj\Debug\05- CheckBox RadioButton GroupBox And Tag.exe
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\05- CheckBox RadioButton GroupBox And Tag\obj\Debug\05- CheckBox RadioButton GroupBox And Tag.pdb
