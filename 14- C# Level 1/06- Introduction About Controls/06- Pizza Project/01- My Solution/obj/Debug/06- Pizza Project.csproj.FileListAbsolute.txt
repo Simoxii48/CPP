@@ -1,0 +1,10 @@
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\06- Pizza Project\bin\Debug\06- Pizza Project.exe.config
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\06- Pizza Project\bin\Debug\06- Pizza Project.exe
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\06- Pizza Project\bin\Debug\06- Pizza Project.pdb
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\06- Pizza Project\obj\Debug\06- Pizza Project.csproj.AssemblyReference.cache
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\06- Pizza Project\obj\Debug\_06__Pizza_Project.Form1.resources
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\06- Pizza Project\obj\Debug\_06__Pizza_Project.Properties.Resources.resources
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\06- Pizza Project\obj\Debug\06- Pizza Project.csproj.GenerateResource.cache
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\06- Pizza Project\obj\Debug\06- Pizza Project.csproj.CoreCompileInputs.cache
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\06- Pizza Project\obj\Debug\06- Pizza Project.exe
+C:\Users\mouha\Desktop\CPP\14- C# Level 1\06- Introduction About Controls\06- Pizza Project\obj\Debug\06- Pizza Project.pdb
